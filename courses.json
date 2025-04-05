@@ -1,0 +1,6143 @@
+{
+    "professors": [
+        {
+            "id": "p1",
+            "name": "Dr. Aimee Nichols",
+            "department": "Psychology",
+            "email": "anichols@indiana.edu",
+            "avgRating": 4.1
+        },
+        {
+            "id": "p2",
+            "name": "Dr. Alice Cox",
+            "department": "Data Science",
+            "email": "acox@indiana.edu",
+            "avgRating": 3.6
+        },
+        {
+            "id": "p3",
+            "name": "Dr. Amanda Mendoza",
+            "department": "Data Science",
+            "email": "amendoza@indiana.edu",
+            "avgRating": 3.6
+        },
+        {
+            "id": "p4",
+            "name": "Dr. Amy Fields",
+            "department": "Data Science",
+            "email": "afields@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p5",
+            "name": "Dr. Andrew Golden",
+            "department": "Information Science",
+            "email": "agolden@indiana.edu",
+            "avgRating": 3.3
+        },
+        {
+            "id": "p6",
+            "name": "Dr. Ashlee Henry",
+            "department": "Information Science",
+            "email": "ahenry@indiana.edu",
+            "avgRating": 3.4
+        },
+        {
+            "id": "p7",
+            "name": "Dr. Baildon M",
+            "department": "Hutton Honors College",
+            "email": "bm@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p8",
+            "name": "Dr. Bob Stevenson",
+            "department": "Political Science",
+            "email": "bstevenson@indiana.edu",
+            "avgRating": 4.3
+        },
+        {
+            "id": "p9",
+            "name": "Dr. Bradley Allen",
+            "department": "Economics",
+            "email": "ballen@indiana.edu",
+            "avgRating": 3.7
+        },
+        {
+            "id": "p10",
+            "name": "Dr. Brenda Buchanan",
+            "department": "Chemistry",
+            "email": "bbuchanan@indiana.edu",
+            "avgRating": 4.7
+        },
+        {
+            "id": "p11",
+            "name": "Dr. Brent Johnson",
+            "department": "Philosophy",
+            "email": "bjohnson@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p12",
+            "name": "Dr. Cameron Morgan",
+            "department": "Information Science",
+            "email": "cmorgan@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p13",
+            "name": "Dr. Catherine Adams",
+            "department": "Data Science",
+            "email": "cadams@indiana.edu",
+            "avgRating": 3.4
+        },
+        {
+            "id": "p14",
+            "name": "Dr. Cecil R",
+            "department": "Hutton Honors College",
+            "email": "cr@indiana.edu",
+            "avgRating": 3.7
+        },
+        {
+            "id": "p15",
+            "name": "Dr. Chad Dixon",
+            "department": "Economics",
+            "email": "cdixon@indiana.edu",
+            "avgRating": 3.5
+        },
+        {
+            "id": "p16",
+            "name": "Dr. Charlotte Poole",
+            "department": "Data Science",
+            "email": "cpoole@indiana.edu",
+            "avgRating": 4.8
+        },
+        {
+            "id": "p17",
+            "name": "Dr. Chelsea Dunn",
+            "department": "History",
+            "email": "cdunn@indiana.edu",
+            "avgRating": 5.0
+        },
+        {
+            "id": "p18",
+            "name": "Dr. Christian Cantu",
+            "department": "Economics",
+            "email": "ccantu@indiana.edu",
+            "avgRating": 3.9
+        },
+        {
+            "id": "p19",
+            "name": "Dr. Christopher Mcbride",
+            "department": "Mathematics",
+            "email": "cmcbride@indiana.edu",
+            "avgRating": 3.5
+        },
+        {
+            "id": "p20",
+            "name": "Dr. Claudia Miller",
+            "department": "Psychology",
+            "email": "cmiller@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p21",
+            "name": "Dr. Cody Bailey",
+            "department": "Economics",
+            "email": "cbailey@indiana.edu",
+            "avgRating": 4.4
+        },
+        {
+            "id": "p22",
+            "name": "Dr. Cynthia Anderson",
+            "department": "Mathematics",
+            "email": "canderson@indiana.edu",
+            "avgRating": 4.1
+        },
+        {
+            "id": "p23",
+            "name": "Dr. Damon Henry",
+            "department": "Data Science",
+            "email": "dhenry@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p24",
+            "name": "Dr. Daniel Robertson",
+            "department": "Computer Science",
+            "email": "drobertson@indiana.edu",
+            "avgRating": 3.7
+        },
+        {
+            "id": "p25",
+            "name": "Dr. David James",
+            "department": "Information Science",
+            "email": "djames@indiana.edu",
+            "avgRating": 3.4
+        },
+        {
+            "id": "p26",
+            "name": "Dr. David Mueller",
+            "department": "Philosophy",
+            "email": "dmueller@indiana.edu",
+            "avgRating": 4.3
+        },
+        {
+            "id": "p27",
+            "name": "Dr. David Russell",
+            "department": "Information Science",
+            "email": "drussell@indiana.edu",
+            "avgRating": 4.2
+        },
+        {
+            "id": "p28",
+            "name": "Dr. Deanna Johnson",
+            "department": "Philosophy",
+            "email": "djohnson@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p29",
+            "name": "Dr. Deborah Mcdaniel",
+            "department": "Biology",
+            "email": "dmcdaniel@indiana.edu",
+            "avgRating": 4.7
+        },
+        {
+            "id": "p30",
+            "name": "Dr. Devin Thornton",
+            "department": "Economics",
+            "email": "dthornton@indiana.edu",
+            "avgRating": 3.8
+        },
+        {
+            "id": "p31",
+            "name": "Dr. Donald Chavez",
+            "department": "Mathematics",
+            "email": "dchavez@indiana.edu",
+            "avgRating": 4.7
+        },
+        {
+            "id": "p32",
+            "name": "Dr. Michael Williams",
+            "department": "Psychology",
+            "email": "dwilliams@indiana.edu",
+            "avgRating": 4.1
+        },
+        {
+            "id": "p33",
+            "name": "Dr. Drake J",
+            "department": "Hutton Honors College",
+            "email": "dj@indiana.edu",
+            "avgRating": 3.5
+        },
+        {
+            "id": "p34",
+            "name": "Dr. Elizabeth Harrison",
+            "department": "Information Science",
+            "email": "eharrison@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p35",
+            "name": "Dr. Emery J",
+            "department": "Hutton Honors College",
+            "email": "ej@indiana.edu",
+            "avgRating": 3.8
+        },
+        {
+            "id": "p36",
+            "name": "Dr. Felicia Hunter",
+            "department": "Biology",
+            "email": "fhunter@indiana.edu",
+            "avgRating": 3.7
+        },
+        {
+            "id": "p37",
+            "name": "Dr. Frohardt-Lane S",
+            "department": "Hutton Honors College",
+            "email": "fs@indiana.edu",
+            "avgRating": 4.2
+        },
+        {
+            "id": "p38",
+            "name": "Dr. Furniss N",
+            "department": "Hutton Honors College",
+            "email": "fn@indiana.edu",
+            "avgRating": 3.2
+        },
+        {
+            "id": "p39",
+            "name": "Dr. Garrett Stone",
+            "department": "Biology",
+            "email": "gstone@indiana.edu",
+            "avgRating": 3.9
+        },
+        {
+            "id": "p40",
+            "name": "Dr. Gerald Butler",
+            "department": "Economics",
+            "email": "gbutler@indiana.edu",
+            "avgRating": 3.2
+        },
+        {
+            "id": "p41",
+            "name": "Dr. Heather Henry",
+            "department": "Economics",
+            "email": "hhenry@indiana.edu",
+            "avgRating": 3.3
+        },
+        {
+            "id": "p42",
+            "name": "Dr. Jacob Rush",
+            "department": "Psychology",
+            "email": "jrush@indiana.edu",
+            "avgRating": 3.7
+        },
+        {
+            "id": "p43",
+            "name": "Dr. Jane Scott",
+            "department": "Computer Science",
+            "email": "jscott@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p44",
+            "name": "Dr. Jerry Fleming",
+            "department": "Data Science",
+            "email": "jfleming@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p45",
+            "name": "Dr. Jerry Strickland",
+            "department": "Chemistry",
+            "email": "jstrickland@indiana.edu",
+            "avgRating": 3.5
+        },
+        {
+            "id": "p46",
+            "name": "Dr. Jessica Carr",
+            "department": "Data Science",
+            "email": "jcarr@indiana.edu",
+            "avgRating": 4.1
+        },
+        {
+            "id": "p47",
+            "name": "Dr. Jessica Marshall",
+            "department": "Data Science",
+            "email": "jmarshall@indiana.edu",
+            "avgRating": 4.0
+        },
+        {
+            "id": "p48",
+            "name": "Dr. John Ross",
+            "department": "Information Science",
+            "email": "jross@indiana.edu",
+            "avgRating": 3.9
+        },
+        {
+            "id": "p49",
+            "name": "Dr. Johnny Green",
+            "department": "Mathematics",
+            "email": "jgreen@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p50",
+            "name": "Dr. Jon Johnson",
+            "department": "Political Science",
+            "email": "jjohnson@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p51",
+            "name": "Dr. Jorge Long",
+            "department": "Data Science",
+            "email": "jlong@indiana.edu",
+            "avgRating": 4.2
+        },
+        {
+            "id": "p52",
+            "name": "Dr. Kathleen Collins",
+            "department": "Political Science",
+            "email": "kcollins@indiana.edu",
+            "avgRating": 3.3
+        },
+        {
+            "id": "p53",
+            "name": "Dr. Krystal Martinez",
+            "department": "Physics",
+            "email": "kmartinez@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p54",
+            "name": "Dr. Madison Pollard",
+            "department": "Philosophy",
+            "email": "mpollard@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p55",
+            "name": "Dr. Marc Davis",
+            "department": "Information Science",
+            "email": "mdavis@indiana.edu",
+            "avgRating": 4.4
+        },
+        {
+            "id": "p56",
+            "name": "Dr. Martin Mann",
+            "department": "Chemistry",
+            "email": "mmann@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p57",
+            "name": "Dr. Mary Torres",
+            "department": "Computer Science",
+            "email": "mtorres@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p58",
+            "name": "Dr. Matthew Murphy",
+            "department": "Computer Science",
+            "email": "mmurphy@indiana.edu",
+            "avgRating": 4.2
+        },
+        {
+            "id": "p59",
+            "name": "Dr. Melissa Terry",
+            "department": "Information Science",
+            "email": "mterry@indiana.edu",
+            "avgRating": 3.6
+        },
+        {
+            "id": "p60",
+            "name": "Dr. Michael Smith",
+            "department": "Computer Science",
+            "email": "msmith@indiana.edu",
+            "avgRating": 3.3
+        },
+        {
+            "id": "p61",
+            "name": "Dr. Michael Stephens",
+            "department": "Mathematics",
+            "email": "mstephens@indiana.edu",
+            "avgRating": 4.2
+        },
+        {
+            "id": "p62",
+            "name": "Dr. Michele Russell",
+            "department": "Information Science",
+            "email": "mrussell@indiana.edu",
+            "avgRating": 3.4
+        },
+        {
+            "id": "p63",
+            "name": "Dr. Michelle Kelley",
+            "department": "History",
+            "email": "mkelley@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p64",
+            "name": "Dr. Mitchell Powers",
+            "department": "History",
+            "email": "mpowers@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p65",
+            "name": "Dr. Monica Turner",
+            "department": "Mathematics",
+            "email": "mturner@indiana.edu",
+            "avgRating": 3.5
+        },
+        {
+            "id": "p66",
+            "name": "Mr. Warren Wilson",
+            "department": "Information Science",
+            "email": "mwilson@indiana.edu",
+            "avgRating": 4.8
+        },
+        {
+            "id": "p67",
+            "name": "Dr. Nicole Henry",
+            "department": "Biology",
+            "email": "nhenry@indiana.edu",
+            "avgRating": 4.4
+        },
+        {
+            "id": "p68",
+            "name": "Dr. Pamela Mccoy",
+            "department": "Computer Science",
+            "email": "pmccoy@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p69",
+            "name": "Dr. Patrick Myers",
+            "department": "Information Science",
+            "email": "pmyers@indiana.edu",
+            "avgRating": 4.1
+        },
+        {
+            "id": "p70",
+            "name": "Dr. Rebecca Cuevas",
+            "department": "Computer Science",
+            "email": "rcuevas@indiana.edu",
+            "avgRating": 4.1
+        },
+        {
+            "id": "p71",
+            "name": "Dr. Ricardo Henry",
+            "department": "Computer Science",
+            "email": "rhenry@indiana.edu",
+            "avgRating": 3.8
+        },
+        {
+            "id": "p72",
+            "name": "Dr. Robert Butler",
+            "department": "Philosophy",
+            "email": "rbutler@indiana.edu",
+            "avgRating": 3.4
+        },
+        {
+            "id": "p73",
+            "name": "Dr. Robert Miller",
+            "department": "Psychology",
+            "email": "rmiller@indiana.edu",
+            "avgRating": 4.4
+        },
+        {
+            "id": "p74",
+            "name": "Dr. Samantha Walters",
+            "department": "Computer Science",
+            "email": "swalters@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p75",
+            "name": "Dr. Sara Francis",
+            "department": "Computer Science",
+            "email": "sfrancis@indiana.edu",
+            "avgRating": 3.8
+        },
+        {
+            "id": "p76",
+            "name": "Dr. Sarah Hester",
+            "department": "Information Science",
+            "email": "shester@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p77",
+            "name": "Dr. Shannon Martinez",
+            "department": "Political Science",
+            "email": "smartinez@indiana.edu",
+            "avgRating": 3.8
+        },
+        {
+            "id": "p78",
+            "name": "Dr. Sharon Jacobson",
+            "department": "History",
+            "email": "sjacobson@indiana.edu",
+            "avgRating": 3.4
+        },
+        {
+            "id": "p79",
+            "name": "Dr. Sheila Cruz",
+            "department": "Chemistry",
+            "email": "scruz@indiana.edu",
+            "avgRating": 3.6
+        },
+        {
+            "id": "p80",
+            "name": "Dr. Spang R",
+            "department": "Hutton Honors College",
+            "email": "sr@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p81",
+            "name": "Dr. Stacy Erickson",
+            "department": "Political Science",
+            "email": "serickson@indiana.edu",
+            "avgRating": 4.8
+        },
+        {
+            "id": "p82",
+            "name": "Dr. Stecher G",
+            "department": "Hutton Honors College",
+            "email": "sg@indiana.edu",
+            "avgRating": 3.3
+        },
+        {
+            "id": "p83",
+            "name": "Dr. Steven Henderson",
+            "department": "Economics",
+            "email": "shenderson@indiana.edu",
+            "avgRating": 4.9
+        },
+        {
+            "id": "p84",
+            "name": "Dr. Terry Garza",
+            "department": "Information Science",
+            "email": "tgarza@indiana.edu",
+            "avgRating": 5.0
+        },
+        {
+            "id": "p85",
+            "name": "Dr. Tonya Barnett",
+            "department": "Psychology",
+            "email": "tbarnett@indiana.edu",
+            "avgRating": 4.6
+        },
+        {
+            "id": "p86",
+            "name": "Dr. Travis Warren",
+            "department": "Data Science",
+            "email": "twarren@indiana.edu",
+            "avgRating": 4.5
+        },
+        {
+            "id": "p87",
+            "name": "Dr. Vincent Tucker",
+            "department": "Psychology",
+            "email": "vtucker@indiana.edu",
+            "avgRating": 4.7
+        },
+        {
+            "id": "p88",
+            "name": "Dr. Willie Mathis",
+            "department": "Economics",
+            "email": "wmathis@indiana.edu",
+            "avgRating": 4.0
+        }
+    ],
+    "departments": [
+        {
+            "id": "d1",
+            "name": "Biology",
+            "code": "BIOL"
+        },
+        {
+            "id": "d2",
+            "name": "Chemistry",
+            "code": "CHEM"
+        },
+        {
+            "id": "d3",
+            "name": "Computer Science",
+            "code": "CSCI"
+        },
+        {
+            "id": "d4",
+            "name": "Data Science",
+            "code": "DSCI"
+        },
+        {
+            "id": "d5",
+            "name": "Economics",
+            "code": "ECON"
+        },
+        {
+            "id": "d6",
+            "name": "History",
+            "code": "HIST"
+        },
+        {
+            "id": "d7",
+            "name": "Hutton Honors College",
+            "code": "HHC"
+        },
+        {
+            "id": "d8",
+            "name": "Information Science",
+            "code": "INFO"
+        },
+        {
+            "id": "d9",
+            "name": "Mathematics",
+            "code": "MATH"
+        },
+        {
+            "id": "d10",
+            "name": "Philosophy",
+            "code": "PHIL"
+        },
+        {
+            "id": "d11",
+            "name": "Physics",
+            "code": "PHYS"
+        },
+        {
+            "id": "d12",
+            "name": "Political Science",
+            "code": "POLS"
+        },
+        {
+            "id": "d13",
+            "name": "Psychology",
+            "code": "PSY"
+        }
+    ],
+    "courses": [
+        {
+            "id": "hhc1",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Drake J",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "09:45",
+                "endTime": "11:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc2",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Drake J",
+            "location": "PY 111",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc3",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Spang R",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Tuesday"
+                ],
+                "startTime": "16:45",
+                "endTime": "18:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc4",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Stecher G",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Tuesday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc5",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Stecher G",
+            "location": "HU 111",
+            "schedule": {
+                "days": [
+                    "Thursday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc6",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Emery J",
+            "location": "HU 111",
+            "schedule": {
+                "days": [
+                    "Wednesday"
+                ],
+                "startTime": "09:45",
+                "endTime": "11:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc7",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Emery J",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Wednesday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc8",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Baildon M",
+            "location": "HU 111",
+            "schedule": {
+                "days": [
+                    "Tuesday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 20
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc9",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Baildon M",
+            "location": "HU 111",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "09:45",
+                "endTime": "11:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 21
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc10",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Baildon M",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Wednesday"
+                ],
+                "startTime": "09:45",
+                "endTime": "11:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc11",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Frohardt-Lane S",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc12",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Frohardt-Lane S",
+            "location": "HU 217",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "16:45",
+                "endTime": "18:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 18,
+                "enrolled": 18
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc13",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Frohardt-Lane S",
+            "location": "BH 142",
+            "schedule": {
+                "days": [
+                    "Wednesday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 21,
+                "enrolled": 19
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc14",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Frohardt-Lane S",
+            "location": "BH 238",
+            "schedule": {
+                "days": [
+                    "Wednesday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "hhc15",
+            "name": "Education and Its Aims",
+            "code": "HHC-H 101",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H101",
+            "credits": 1.5,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
+            "professor": "Frohardt-Lane S",
+            "location": "BH 142",
+            "schedule": {
+                "days": [
+                    "Thursday"
+                ],
+                "startTime": "16:45",
+                "endTime": "18:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 22
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.0,
+                "organization": 4.0,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c1",
+            "name": "Networked well-modulated instruction set",
+            "code": "PSY-C120",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "C120",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Group through despite cause cause believe son. Work special total financial role together range.",
+            "professor": "Vincent Tucker",
+            "location": "HU 361",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 51,
+                "enrolled": 35
+            },
+            "prerequisites": [
+                "PSY-B172"
+            ],
+            "textbooks": [
+                "Nice government first policy daughter need kind."
+            ],
+            "ocq": {
+                "overall": 3.7,
+                "difficulty": 2.2,
+                "workload": 4.0,
+                "organization": 5.0,
+                "comments": [
+                    {
+                        "text": "Employee source nature add rest human station.",
+                        "date": "2024-12-19",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Ability management test during foot that course nothing.",
+                        "date": "2024-07-05",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Sort language ball floor.",
+                        "date": "2024-10-18",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 19,
+                "B": 8,
+                "C": 2,
+                "D": 5,
+                "F": 2,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c2",
+            "name": "Pre-emptive bi-directional framework",
+            "code": "HIST-B281",
+            "department": "History",
+            "departmentCode": "HIST",
+            "number": "B281",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "White owner onto knowledge other. First drug contain start almost wonder. Live bed serious theory type.",
+            "professor": "Michelle Kelley",
+            "location": "SW 261",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "15:45",
+                "endTime": "16:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 59,
+                "enrolled": 50
+            },
+            "prerequisites": [
+                "HIST-C115"
+            ],
+            "textbooks": [
+                "Together type music hospital."
+            ],
+            "ocq": {
+                "overall": 4.7,
+                "difficulty": 3.4,
+                "workload": 2.0,
+                "organization": 4.4,
+                "comments": [
+                    {
+                        "text": "Every speech support time operation wear often.",
+                        "date": "2024-09-25",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Produce you true soldier bank party main.",
+                        "date": "2024-12-04",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 30,
+                "B": 5,
+                "C": 10,
+                "D": 3,
+                "F": 2,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c3",
+            "name": "Managed content-based encryption",
+            "code": "ECON-D132",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "D132",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Forward staff beyond chair. And off travel move quite. Buy country store.",
+            "professor": "Devin Thornton",
+            "location": "GY 390",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 34,
+                "enrolled": 17
+            },
+            "prerequisites": [
+                "ECON-C230"
+            ],
+            "textbooks": [
+                "Hospital have wonder already."
+            ],
+            "ocq": {
+                "overall": 5.0,
+                "difficulty": 3.2,
+                "workload": 2.8,
+                "organization": 3.6,
+                "comments": [
+                    {
+                        "text": "Create wife responsibility.",
+                        "date": "2024-10-07",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 20,
+                "B": 11,
+                "C": 10,
+                "D": 4,
+                "F": 2,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c4",
+            "name": "Expanded upward-trending website",
+            "code": "MATH-D297",
+            "department": "Mathematics",
+            "departmentCode": "MATH",
+            "number": "D297",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Structure attorney author feeling. Congress mean always beyond write current. Toward like total now recently data. Small citizen class morning.",
+            "professor": "Michael Stephens",
+            "location": "SE 394",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "10:00",
+                "endTime": "11:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 35,
+                "enrolled": 19
+            },
+            "prerequisites": [
+                "MATH-C221"
+            ],
+            "textbooks": [
+                "Others kind company likely."
+            ],
+            "ocq": {
+                "overall": 3.6,
+                "difficulty": 3.7,
+                "workload": 2.3,
+                "organization": 3.3,
+                "comments": [
+                    {
+                        "text": "Tonight themselves true power home price.",
+                        "date": "2024-06-02",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 27,
+                "B": 17,
+                "C": 9,
+                "D": 2,
+                "F": 1,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c5",
+            "name": "Realigned system-worthy access",
+            "code": "POLS-C396",
+            "department": "Political Science",
+            "departmentCode": "POLS",
+            "number": "C396",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Care several loss particular pull. Water plant perform resource hold increase practice ability. Recognize civil development large report.",
+            "professor": "Bob Stevenson",
+            "location": "HU 330",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "13:00",
+                "endTime": "14:15"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 51,
+                "enrolled": 51
+            },
+            "prerequisites": [
+                "POLS-C148"
+            ],
+            "textbooks": [
+                "Themselves all the nothing sign remember close."
+            ],
+            "ocq": {
+                "overall": 3.9,
+                "difficulty": 3.8,
+                "workload": 2.3,
+                "organization": 3.4,
+                "comments": [
+                    {
+                        "text": "Else citizen month maintain.",
+                        "date": "2024-11-08",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 6,
+                "C": 2,
+                "D": 1,
+                "F": 1,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c6",
+            "name": "Robust web-enabled ability",
+            "code": "POLS-D373",
+            "department": "Political Science",
+            "departmentCode": "POLS",
+            "number": "D373",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Speak themselves speech. Nature white without study candidate. I question first.",
+            "professor": "Kathleen Collins",
+            "location": "PY 113",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "09:30",
+                "endTime": "10:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 27,
+                "enrolled": 16
+            },
+            "prerequisites": [
+                "POLS-B255"
+            ],
+            "textbooks": [
+                "Add senior woman put partner."
+            ],
+            "ocq": {
+                "overall": 3.5,
+                "difficulty": 4.4,
+                "workload": 2.5,
+                "organization": 3.2,
+                "comments": [
+                    {
+                        "text": "Budget power them evidence without.",
+                        "date": "2024-05-12",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 11,
+                "B": 5,
+                "C": 9,
+                "D": 3,
+                "F": 0,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c7",
+            "name": "Phased hybrid product",
+            "code": "MATH-B136",
+            "department": "Mathematics",
+            "departmentCode": "MATH",
+            "number": "B136",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Card minute practice get the. Surface amount day employee fire.",
+            "professor": "Donald Chavez",
+            "location": "HU 279",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 47,
+                "enrolled": 21
+            },
+            "prerequisites": [
+                "MATH-B279"
+            ],
+            "textbooks": [
+                "Voice travel among see red pretty."
+            ],
+            "ocq": {
+                "overall": 5.0,
+                "difficulty": 2.5,
+                "workload": 2.9,
+                "organization": 4.5,
+                "comments": [
+                    {
+                        "text": "Policy head Mrs debate onto across character.",
+                        "date": "2024-08-11",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Smile responsibility full per among clearly.",
+                        "date": "2024-11-16",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Guess writer can boy room.",
+                        "date": "2025-04-01",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 16,
+                "B": 6,
+                "C": 3,
+                "D": 1,
+                "F": 2,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c8",
+            "name": "Business-focused fault-tolerant conglomeration",
+            "code": "MATH-D326",
+            "department": "Mathematics",
+            "departmentCode": "MATH",
+            "number": "D326",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Increase between training listen subject. Buy break marriage also friend reach. Turn phone heart window.",
+            "professor": "Monica Turner",
+            "location": "BH 106",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "14:30",
+                "endTime": "15:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 50,
+                "enrolled": 36
+            },
+            "prerequisites": [
+                "MATH-B217"
+            ],
+            "textbooks": [
+                "Assume be seek article."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 2.8,
+                "workload": 2.1,
+                "organization": 3.6,
+                "comments": [
+                    {
+                        "text": "Better news face.",
+                        "date": "2025-03-27",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 21,
+                "B": 14,
+                "C": 6,
+                "D": 4,
+                "F": 1,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c9",
+            "name": "Pre-emptive zero tolerance paradigm",
+            "code": "PSY-D312",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "D312",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "One coach court boy state. Total later quality.",
+            "professor": "Claudia Miller",
+            "location": "PY 100",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "11:15",
+                "endTime": "12:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 58,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "PSY-C196"
+            ],
+            "textbooks": [
+                "Market either political young."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 3.7,
+                "workload": 4.2,
+                "organization": 3.1,
+                "comments": [
+                    {
+                        "text": "Perhaps bit learn gun still.",
+                        "date": "2024-05-14",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Work chance image quite there many true follow.",
+                        "date": "2024-10-14",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Play themselves myself use act relationship section.",
+                        "date": "2024-08-05",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 11,
+                "B": 10,
+                "C": 8,
+                "D": 0,
+                "F": 2,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c10",
+            "name": "Inverse 5thgeneration moderator",
+            "code": "PHIL-D349",
+            "department": "Philosophy",
+            "departmentCode": "PHIL",
+            "number": "D349",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Family relationship like son might trip at candidate. Address such former claim chance. Why measure too maybe off question source.",
+            "professor": "David Mueller",
+            "location": "LH 119",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "08:45",
+                "endTime": "09:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 51,
+                "enrolled": 30
+            },
+            "prerequisites": [
+                "PHIL-B285"
+            ],
+            "textbooks": [
+                "Wrong section town deal movement out stay lot."
+            ],
+            "ocq": {
+                "overall": 3.7,
+                "difficulty": 2.0,
+                "workload": 4.4,
+                "organization": 3.8,
+                "comments": [
+                    {
+                        "text": "Parent do ten after those scientist.",
+                        "date": "2024-07-30",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 10,
+                "B": 5,
+                "C": 9,
+                "D": 4,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c11",
+            "name": "Profit-focused non-volatile extranet",
+            "code": "MATH-D432",
+            "department": "Mathematics",
+            "departmentCode": "MATH",
+            "number": "D432",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "His himself clearly very dream role. Area along individual man tell response.",
+            "professor": "Johnny Green",
+            "location": "GY 254",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "15:45",
+                "endTime": "16:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 37,
+                "enrolled": 32
+            },
+            "prerequisites": [
+                "MATH-B105"
+            ],
+            "textbooks": [
+                "Special good along letter."
+            ],
+            "ocq": {
+                "overall": 3.9,
+                "difficulty": 3.1,
+                "workload": 4.0,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "Another likely character allow pay picture black.",
+                        "date": "2024-11-03",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 26,
+                "B": 16,
+                "C": 2,
+                "D": 1,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c12",
+            "name": "Streamlined grid-enabled core",
+            "code": "CSCI-B205",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "B205",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Red pass value practice wide require fast support. Son true their race special million.",
+            "professor": "Ricardo Henry",
+            "location": "HU 385",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "08:45",
+                "endTime": "09:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 40,
+                "enrolled": 40
+            },
+            "prerequisites": [
+                "CSCI-C263"
+            ],
+            "textbooks": [
+                "Although hot he couple ground."
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 4.2,
+                "workload": 2.4,
+                "organization": 3.8,
+                "comments": [
+                    {
+                        "text": "Away and various main too war project occur.",
+                        "date": "2024-06-26",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Behavior standard thousand single recognize.",
+                        "date": "2024-09-14",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 14,
+                "B": 13,
+                "C": 6,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c13",
+            "name": "Profit-focused fault-tolerant budgetary management",
+            "code": "ECON-D118",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "D118",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Indeed between similar safe. Social issue indicate.",
+            "professor": "Steven Henderson",
+            "location": "LH 238",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "14:15",
+                "endTime": "15:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 30,
+                "enrolled": 14
+            },
+            "prerequisites": [
+                "ECON-B222"
+            ],
+            "textbooks": [
+                "Try while reveal bad audience grow ahead."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 4.3,
+                "workload": 2.8,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "Concern store discover hand others century.",
+                        "date": "2024-04-05",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Probably rule too security fall.",
+                        "date": "2024-12-27",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Usually do center.",
+                        "date": "2024-09-27",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 20,
+                "B": 14,
+                "C": 7,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c14",
+            "name": "Customizable mission-critical hardware",
+            "code": "PHIL-C275",
+            "department": "Philosophy",
+            "departmentCode": "PHIL",
+            "number": "C275",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Friend which fast there network force. Year bill ok choose today watch source firm.",
+            "professor": "Deanna Johnson",
+            "location": "PY 345",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "12:30",
+                "endTime": "13:45"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 27,
+                "enrolled": 25
+            },
+            "prerequisites": [
+                "PHIL-B142"
+            ],
+            "textbooks": [
+                "Door contain head production technology."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 2.9,
+                "workload": 4.4,
+                "organization": 4.3,
+                "comments": [
+                    {
+                        "text": "After back available inside nearly scientist central instead.",
+                        "date": "2024-12-07",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 16,
+                "B": 12,
+                "C": 1,
+                "D": 3,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c15",
+            "name": "Multi-channeled attitude-oriented encryption",
+            "code": "PSY-D365",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "D365",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Impact individual rock fly daughter fall. Before control board born painting child reflect.",
+            "professor": "Jacob Rush",
+            "location": "HU 329",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "09:30",
+                "endTime": "10:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 78,
+                "enrolled": 72
+            },
+            "prerequisites": [
+                "PSY-C249"
+            ],
+            "textbooks": [
+                "Control instead company where future model."
+            ],
+            "ocq": {
+                "overall": 4.7,
+                "difficulty": 3.1,
+                "workload": 2.9,
+                "organization": 3.1,
+                "comments": [
+                    {
+                        "text": "Leg PM low data ability recognize.",
+                        "date": "2024-11-30",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Account fear shoulder pick nation choose relationship.",
+                        "date": "2024-10-04",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Question set discussion seven.",
+                        "date": "2024-07-21",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 16,
+                "B": 8,
+                "C": 8,
+                "D": 3,
+                "F": 2,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c16",
+            "name": "Self-enabling 3rdgeneration capability",
+            "code": "CSCI-B419",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "B419",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Three report know second government the pull. Other along society figure future. Teacher three seven attention team executive care.",
+            "professor": "Michael Smith",
+            "location": "BH 153",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "16:15",
+                "endTime": "16:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 32,
+                "enrolled": 24
+            },
+            "prerequisites": [
+                "CSCI-C137"
+            ],
+            "textbooks": [
+                "Phone most improve play idea sing small."
+            ],
+            "ocq": {
+                "overall": 4.3,
+                "difficulty": 3.6,
+                "workload": 3.1,
+                "organization": 4.0,
+                "comments": [
+                    {
+                        "text": "Kind nothing case but building.",
+                        "date": "2024-09-06",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Life nice federal place score design major maybe.",
+                        "date": "2024-10-12",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Know central many thought.",
+                        "date": "2024-06-26",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 30,
+                "B": 11,
+                "C": 9,
+                "D": 4,
+                "F": 1,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c17",
+            "name": "Assimilated heuristic leverage",
+            "code": "ECON-D482",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "D482",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Rather score protect according. Break about establish.",
+            "professor": "Willie Mathis",
+            "location": "SE 264",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "10:45",
+                "endTime": "11:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 22,
+                "enrolled": 18
+            },
+            "prerequisites": [
+                "ECON-C283"
+            ],
+            "textbooks": [
+                "Road dinner seem explain black."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 3.2,
+                "workload": 4.0,
+                "organization": 4.0,
+                "comments": [
+                    {
+                        "text": "Respond himself former possible reach challenge value.",
+                        "date": "2024-05-31",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 17,
+                "B": 9,
+                "C": 1,
+                "D": 2,
+                "F": 0,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c18",
+            "name": "Progressive foreground capacity",
+            "code": "ECON-B176",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "B176",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Southern hope detail cultural vote only. Town almost plan. Hair sea quality do.",
+            "professor": "Cody Bailey",
+            "location": "EP 290",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 52,
+                "enrolled": 34
+            },
+            "prerequisites": [
+                "ECON-C293"
+            ],
+            "textbooks": [
+                "Partner relate mention expect there."
+            ],
+            "ocq": {
+                "overall": 3.8,
+                "difficulty": 3.3,
+                "workload": 3.5,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "In approach recent program possible natural.",
+                        "date": "2025-01-14",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Ok majority region democratic entire analysis.",
+                        "date": "2024-06-06",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 28,
+                "B": 12,
+                "C": 1,
+                "D": 5,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c19",
+            "name": "Monitored 24hour frame",
+            "code": "CHEM-D391",
+            "department": "Chemistry",
+            "departmentCode": "CHEM",
+            "number": "D391",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "However TV law fund bill third some follow. Throw eight miss couple bag thank generation.",
+            "professor": "Brenda Buchanan",
+            "location": "HU 270",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "14:45",
+                "endTime": "15:00"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 24,
+                "enrolled": 17
+            },
+            "prerequisites": [
+                "CHEM-B141"
+            ],
+            "textbooks": [
+                "Economy rock feeling might his."
+            ],
+            "ocq": {
+                "overall": 4.5,
+                "difficulty": 2.3,
+                "workload": 2.7,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "Gas Republican and various authority leave right.",
+                        "date": "2024-04-22",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 18,
+                "C": 3,
+                "D": 3,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c20",
+            "name": "Open-source modular knowledgebase",
+            "code": "ECON-C118",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "C118",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "This degree partner stand next though. Always Congress majority campaign that various.",
+            "professor": "Bradley Allen",
+            "location": "EP 297",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "10:00",
+                "endTime": "11:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 49,
+                "enrolled": 13
+            },
+            "prerequisites": [
+                "ECON-B261"
+            ],
+            "textbooks": [
+                "Yes blue tonight particular smile represent."
+            ],
+            "ocq": {
+                "overall": 4.0,
+                "difficulty": 3.8,
+                "workload": 3.6,
+                "organization": 3.4,
+                "comments": [
+                    {
+                        "text": "Method left plant evening admit past.",
+                        "date": "2025-01-05",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Common increase design they.",
+                        "date": "2024-12-16",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 29,
+                "B": 19,
+                "C": 10,
+                "D": 5,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c21",
+            "name": "Adaptive user-facing monitoring",
+            "code": "POLS-C165",
+            "department": "Political Science",
+            "departmentCode": "POLS",
+            "number": "C165",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Wife north director respond. Produce develop story drive million push do.",
+            "professor": "Shannon Martinez",
+            "location": "SW 250",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "14:45",
+                "endTime": "15:00"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 78,
+                "enrolled": 25
+            },
+            "prerequisites": [
+                "POLS-B216"
+            ],
+            "textbooks": [
+                "Lose old case administration measure happen play speech."
+            ],
+            "ocq": {
+                "overall": 4.0,
+                "difficulty": 3.6,
+                "workload": 4.4,
+                "organization": 4.8,
+                "comments": [
+                    {
+                        "text": "Choice computer yard career deal trip.",
+                        "date": "2024-10-13",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 18,
+                "B": 5,
+                "C": 9,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c22",
+            "name": "Re-contextualized zero administration standardization",
+            "code": "MATH-D499",
+            "department": "Mathematics",
+            "departmentCode": "MATH",
+            "number": "D499",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Government opportunity pick too blue street. Other majority final when new clear these.",
+            "professor": "Cynthia Anderson",
+            "location": "SW 359",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "14:00",
+                "endTime": "15:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 39,
+                "enrolled": 13
+            },
+            "prerequisites": [
+                "MATH-C116"
+            ],
+            "textbooks": [
+                "National region bad case I course first."
+            ],
+            "ocq": {
+                "overall": 3.6,
+                "difficulty": 3.9,
+                "workload": 3.8,
+                "organization": 3.1,
+                "comments": [
+                    {
+                        "text": "Himself arrive although risk which.",
+                        "date": "2024-08-15",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Protect process difficult general class admit.",
+                        "date": "2024-11-12",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 5,
+                "C": 8,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c23",
+            "name": "Quality-focused analyzing superstructure",
+            "code": "ECON-B162",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "B162",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Drop actually watch. At artist will institution throughout describe.",
+            "professor": "Heather Henry",
+            "location": "SE 454",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "08:15",
+                "endTime": "09:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 21,
+                "enrolled": 15
+            },
+            "prerequisites": [
+                "ECON-B252"
+            ],
+            "textbooks": [
+                "Center find power road size impact."
+            ],
+            "ocq": {
+                "overall": 4.8,
+                "difficulty": 2.5,
+                "workload": 2.5,
+                "organization": 4.3,
+                "comments": [
+                    {
+                        "text": "Important enough most.",
+                        "date": "2025-01-14",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 10,
+                "B": 14,
+                "C": 6,
+                "D": 5,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c24",
+            "name": "Synergized tertiary Local Area Network",
+            "code": "PHYS-B332",
+            "department": "Physics",
+            "departmentCode": "PHYS",
+            "number": "B332",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "About catch than method. Bag down stock computer. What to sea.",
+            "professor": "Krystal Martinez",
+            "location": "PY 344",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "11:30",
+                "endTime": "12:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 42,
+                "enrolled": 26
+            },
+            "prerequisites": [
+                "PHYS-C174"
+            ],
+            "textbooks": [
+                "Collection bad until our per leader change."
+            ],
+            "ocq": {
+                "overall": 3.9,
+                "difficulty": 4.2,
+                "workload": 3.4,
+                "organization": 3.7,
+                "comments": [
+                    {
+                        "text": "Always future scene heavy personal threat many group.",
+                        "date": "2024-12-20",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Leader medical class send.",
+                        "date": "2024-08-13",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Sound war address morning explain.",
+                        "date": "2024-10-03",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 28,
+                "B": 14,
+                "C": 3,
+                "D": 3,
+                "F": 1,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c25",
+            "name": "Automated zero administration monitoring",
+            "code": "BIOL-C360",
+            "department": "Biology",
+            "departmentCode": "BIOL",
+            "number": "C360",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Return identify many again science alone. Reflect upon yet seven several might history strong. Decade not forget why under.",
+            "professor": "Deborah Mcdaniel",
+            "location": "GY 221",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "14:00",
+                "endTime": "15:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 68,
+                "enrolled": 21
+            },
+            "prerequisites": [
+                "BIOL-B200"
+            ],
+            "textbooks": [
+                "Purpose mouth then class test check suffer star."
+            ],
+            "ocq": {
+                "overall": 3.6,
+                "difficulty": 2.2,
+                "workload": 3.1,
+                "organization": 4.1,
+                "comments": [
+                    {
+                        "text": "Staff north weight guy personal follow situation over.",
+                        "date": "2024-06-09",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Small notice kind.",
+                        "date": "2024-08-14",
+                        "rating": 5
+                    },
+                    {
+                        "text": "We lose water.",
+                        "date": "2025-02-15",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 19,
+                "B": 16,
+                "C": 2,
+                "D": 1,
+                "F": 3,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c26",
+            "name": "Switchable zero-defect extranet",
+            "code": "HIST-B292",
+            "department": "History",
+            "departmentCode": "HIST",
+            "number": "B292",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Wear community college probably church. Walk place myself his. Entire expect investment yard responsibility watch.",
+            "professor": "Chelsea Dunn",
+            "location": "SW 104",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 46,
+                "enrolled": 30
+            },
+            "prerequisites": [
+                "HIST-B147"
+            ],
+            "textbooks": [
+                "Money fish garden relationship it center accept."
+            ],
+            "ocq": {
+                "overall": 4.7,
+                "difficulty": 2.7,
+                "workload": 3.4,
+                "organization": 4.4,
+                "comments": [
+                    {
+                        "text": "Choice produce type none guess we no.",
+                        "date": "2024-09-10",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Sometimes set tonight gun word citizen create great.",
+                        "date": "2024-12-31",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Affect same number drug continue serve information.",
+                        "date": "2024-11-12",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 18,
+                "C": 3,
+                "D": 1,
+                "F": 3,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c27",
+            "name": "Organized disintermediate synergy",
+            "code": "HIST-B281",
+            "department": "History",
+            "departmentCode": "HIST",
+            "number": "B281",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Clearly type up play wait. Join serious green foreign film.",
+            "professor": "Sharon Jacobson",
+            "location": "EP 423",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "12:00",
+                "endTime": "13:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 60,
+                "enrolled": 15
+            },
+            "prerequisites": [
+                "HIST-C258"
+            ],
+            "textbooks": [
+                "Action economy several hit simple personal home."
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 2.3,
+                "organization": 5.0,
+                "comments": [
+                    {
+                        "text": "Old great notice.",
+                        "date": "2024-11-09",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Foreign agency list miss among.",
+                        "date": "2024-11-09",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 14,
+                "B": 18,
+                "C": 8,
+                "D": 0,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c28",
+            "name": "Monitored high-level ability",
+            "code": "HIST-C243",
+            "department": "History",
+            "departmentCode": "HIST",
+            "number": "C243",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Fire subject west. Fire town worker. Image central challenge term memory.",
+            "professor": "Mitchell Powers",
+            "location": "LH 161",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "12:45",
+                "endTime": "13:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 37,
+                "enrolled": 31
+            },
+            "prerequisites": [
+                "HIST-C213"
+            ],
+            "textbooks": [
+                "By care lose politics."
+            ],
+            "ocq": {
+                "overall": 3.7,
+                "difficulty": 2.6,
+                "workload": 2.7,
+                "organization": 4.5,
+                "comments": [
+                    {
+                        "text": "Role mind statement.",
+                        "date": "2024-12-28",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 12,
+                "B": 6,
+                "C": 2,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c29",
+            "name": "User-friendly tangible product",
+            "code": "MATH-D227",
+            "department": "Mathematics",
+            "departmentCode": "MATH",
+            "number": "D227",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Nice spend cut end. Site military lead travel series.",
+            "professor": "Christopher Mcbride",
+            "location": "BH 134",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "10:15",
+                "endTime": "11:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 46,
+                "enrolled": 28
+            },
+            "prerequisites": [
+                "MATH-B205"
+            ],
+            "textbooks": [
+                "Need although one political almost serious stand."
+            ],
+            "ocq": {
+                "overall": 4.9,
+                "difficulty": 3.4,
+                "workload": 3.9,
+                "organization": 4.8,
+                "comments": [
+                    {
+                        "text": "Cover social particularly speech.",
+                        "date": "2024-10-23",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Remember tree care sign.",
+                        "date": "2024-04-26",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 21,
+                "B": 9,
+                "C": 3,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c30",
+            "name": "Quality-focused attitude-oriented model",
+            "code": "PSY-D339",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "D339",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Good later street mention would technology budget first. Consumer by full. Cover including artist find hope appear should represent.",
+            "professor": "Robert Miller",
+            "location": "BH 386",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "14:15",
+                "endTime": "15:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 62,
+                "enrolled": 29
+            },
+            "prerequisites": [
+                "PSY-C277"
+            ],
+            "textbooks": [
+                "Truth unit impact key page per."
+            ],
+            "ocq": {
+                "overall": 4.3,
+                "difficulty": 3.2,
+                "workload": 4.4,
+                "organization": 3.9,
+                "comments": [
+                    {
+                        "text": "Public none sound include air.",
+                        "date": "2025-02-09",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 6,
+                "C": 10,
+                "D": 1,
+                "F": 0,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c31",
+            "name": "Fundamental content-based info-mediaries",
+            "code": "PHIL-C105",
+            "department": "Philosophy",
+            "departmentCode": "PHIL",
+            "number": "C105",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Identify real to follow.",
+            "professor": "Brent Johnson",
+            "location": "PY 451",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "13:00",
+                "endTime": "14:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 75,
+                "enrolled": 20
+            },
+            "prerequisites": [
+                "PHIL-B169"
+            ],
+            "textbooks": [
+                "Second reason live teach movie I situation."
+            ],
+            "ocq": {
+                "overall": 4.8,
+                "difficulty": 3.7,
+                "workload": 3.8,
+                "organization": 3.5,
+                "comments": [
+                    {
+                        "text": "Agree middle student bag grow.",
+                        "date": "2024-05-12",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Why child might source where a front.",
+                        "date": "2024-11-02",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Civil single city quite.",
+                        "date": "2025-03-11",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 19,
+                "C": 6,
+                "D": 3,
+                "F": 1,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c32",
+            "name": "Secured full-range algorithm",
+            "code": "PSY-D451",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "D451",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Forget whom goal clear inside. Theory case north add us accept.",
+            "professor": "Dr. Michael Williams",
+            "location": "SW 175",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "11:15",
+                "endTime": "12:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 48,
+                "enrolled": 19
+            },
+            "prerequisites": [
+                "PSY-C199"
+            ],
+            "textbooks": [
+                "Responsibility commercial chance agent follow about."
+            ],
+            "ocq": {
+                "overall": 4.1,
+                "difficulty": 3.2,
+                "workload": 3.8,
+                "organization": 4.6,
+                "comments": [
+                    {
+                        "text": "Since born particularly.",
+                        "date": "2025-01-31",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Purpose here ago job.",
+                        "date": "2025-03-24",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 11,
+                "B": 17,
+                "C": 1,
+                "D": 1,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c33",
+            "name": "Synergized full-range structure",
+            "code": "ECON-B480",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "B480",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Authority imagine probably whom it job. High trouble drive loss turn attorney education. Those head against particularly listen.",
+            "professor": "Chad Dixon",
+            "location": "BH 219",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "12:30",
+                "endTime": "13:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 59,
+                "enrolled": 29
+            },
+            "prerequisites": [
+                "ECON-C113"
+            ],
+            "textbooks": [
+                "Everybody particularly test hospital personal."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 3.3,
+                "workload": 4.4,
+                "organization": 4.9,
+                "comments": [
+                    {
+                        "text": "There any require agree inside thank hotel.",
+                        "date": "2025-03-29",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Require page claim future.",
+                        "date": "2024-09-10",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Opportunity you exist me.",
+                        "date": "2025-04-01",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 13,
+                "C": 8,
+                "D": 1,
+                "F": 2,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c34",
+            "name": "Multi-layered grid-enabled circuit",
+            "code": "CSCI-B126",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "B126",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Theory election rich foot herself.",
+            "professor": "Pamela Mccoy",
+            "location": "BH 279",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "09:45",
+                "endTime": "10:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 20,
+                "enrolled": 14
+            },
+            "prerequisites": [
+                "CSCI-B255"
+            ],
+            "textbooks": [
+                "Fact issue radio."
+            ],
+            "ocq": {
+                "overall": 4.1,
+                "difficulty": 4.3,
+                "workload": 3.1,
+                "organization": 3.7,
+                "comments": [
+                    {
+                        "text": "Heart decade care book ground.",
+                        "date": "2024-04-16",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 12,
+                "B": 15,
+                "C": 6,
+                "D": 4,
+                "F": 3,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c35",
+            "name": "Optional object-oriented infrastructure",
+            "code": "CHEM-B367",
+            "department": "Chemistry",
+            "departmentCode": "CHEM",
+            "number": "B367",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Nation network college debate direction moment. Ground think save respond friend budget while.",
+            "professor": "Martin Mann",
+            "location": "LH 197",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 43,
+                "enrolled": 15
+            },
+            "prerequisites": [
+                "CHEM-C272"
+            ],
+            "textbooks": [
+                "Significant energy citizen physical why mouth."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 2.8,
+                "workload": 3.3,
+                "organization": 3.8,
+                "comments": [
+                    {
+                        "text": "Treatment worker season figure.",
+                        "date": "2025-03-11",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Get we memory who yet spend.",
+                        "date": "2024-12-25",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 17,
+                "B": 6,
+                "C": 5,
+                "D": 4,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c36",
+            "name": "Distributed client-server ability",
+            "code": "PHIL-C470",
+            "department": "Philosophy",
+            "departmentCode": "PHIL",
+            "number": "C470",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Recent positive daughter popular. Book read pass heart soldier action throughout. Five put hard recent project speech director.",
+            "professor": "Madison Pollard",
+            "location": "EP 124",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 78,
+                "enrolled": 62
+            },
+            "prerequisites": [
+                "PHIL-B161"
+            ],
+            "textbooks": [
+                "No still back task."
+            ],
+            "ocq": {
+                "overall": 3.6,
+                "difficulty": 3.9,
+                "workload": 3.0,
+                "organization": 4.8,
+                "comments": [
+                    {
+                        "text": "Ago poor coach year.",
+                        "date": "2024-09-09",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Produce just raise enough onto try commercial kid.",
+                        "date": "2024-04-24",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 17,
+                "C": 1,
+                "D": 1,
+                "F": 1,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c37",
+            "name": "Multi-tiered background project",
+            "code": "BIOL-B242",
+            "department": "Biology",
+            "departmentCode": "BIOL",
+            "number": "B242",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Lose big strategy. Nearly hour enter discover hair few participant. Lead while long not.",
+            "professor": "Felicia Hunter",
+            "location": "SE 263",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "16:15",
+                "endTime": "16:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 47,
+                "enrolled": 16
+            },
+            "prerequisites": [
+                "BIOL-C299"
+            ],
+            "textbooks": [
+                "News enter director book cell speech."
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 3.5,
+                "workload": 3.3,
+                "organization": 3.5,
+                "comments": [
+                    {
+                        "text": "Probably arm program only.",
+                        "date": "2024-06-20",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 13,
+                "B": 8,
+                "C": 3,
+                "D": 5,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c38",
+            "name": "Adaptive 5thgeneration initiative",
+            "code": "BIOL-C476",
+            "department": "Biology",
+            "departmentCode": "BIOL",
+            "number": "C476",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Nice themselves gas best above dinner stuff. Ever across great western unit.",
+            "professor": "Nicole Henry",
+            "location": "LH 479",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "09:45",
+                "endTime": "10:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 54,
+                "enrolled": 42
+            },
+            "prerequisites": [
+                "BIOL-C130"
+            ],
+            "textbooks": [
+                "Back off difficult happen."
+            ],
+            "ocq": {
+                "overall": 5.0,
+                "difficulty": 3.4,
+                "workload": 2.6,
+                "organization": 4.4,
+                "comments": [
+                    {
+                        "text": "Team certainly explain current simply process.",
+                        "date": "2025-02-01",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Executive partner story budget great than.",
+                        "date": "2024-07-01",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Place grow everyone win should research.",
+                        "date": "2024-07-22",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 17,
+                "B": 7,
+                "C": 9,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c39",
+            "name": "Customer-focused mission-critical frame",
+            "code": "ECON-D345",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "D345",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Material body himself home message woman. Stock determine human find discussion military ability.",
+            "professor": "Christian Cantu",
+            "location": "HU 398",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "16:30",
+                "endTime": "16:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 30,
+                "enrolled": 14
+            },
+            "prerequisites": [
+                "ECON-B133"
+            ],
+            "textbooks": [
+                "First through dinner whose worker offer American."
+            ],
+            "ocq": {
+                "overall": 4.8,
+                "difficulty": 2.4,
+                "workload": 2.4,
+                "organization": 5.0,
+                "comments": [
+                    {
+                        "text": "Enjoy rise condition Congress.",
+                        "date": "2024-12-31",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 11,
+                "C": 4,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c40",
+            "name": "Multi-lateral 4thgeneration emulation",
+            "code": "PSY-C411",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "C411",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Start paper tree bank. Culture ability to suffer at computer doctor.",
+            "professor": "Aimee Nichols",
+            "location": "BH 422",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "13:45",
+                "endTime": "14:00"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 51,
+                "enrolled": 16
+            },
+            "prerequisites": [
+                "PSY-C103"
+            ],
+            "textbooks": [
+                "High southern job high she past."
+            ],
+            "ocq": {
+                "overall": 4.9,
+                "difficulty": 3.4,
+                "workload": 2.4,
+                "organization": 4.8,
+                "comments": [
+                    {
+                        "text": "Agreement girl happen front law.",
+                        "date": "2024-05-26",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Military edge billion billion agency center sign career.",
+                        "date": "2024-06-23",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Wish floor inside matter nice really listen.",
+                        "date": "2024-10-18",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 12,
+                "B": 13,
+                "C": 3,
+                "D": 4,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c41",
+            "name": "Organized methodical conglomeration",
+            "code": "ECON-C296",
+            "department": "Economics",
+            "departmentCode": "ECON",
+            "number": "C296",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "North friend state do. Go simple improve language thousand. If share land involve education little direction.",
+            "professor": "Gerald Butler",
+            "location": "LH 206",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "15:15",
+                "endTime": "16:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 22,
+                "enrolled": 15
+            },
+            "prerequisites": [
+                "ECON-C271"
+            ],
+            "textbooks": [
+                "Growth main use chance story."
+            ],
+            "ocq": {
+                "overall": 3.7,
+                "difficulty": 2.0,
+                "workload": 3.4,
+                "organization": 3.1,
+                "comments": [
+                    {
+                        "text": "Could usually piece but.",
+                        "date": "2024-04-26",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Garden free perform civil.",
+                        "date": "2025-03-19",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Hope could many cold another way sign.",
+                        "date": "2024-08-13",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 6,
+                "C": 1,
+                "D": 1,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c42",
+            "name": "Virtual systemic model",
+            "code": "BIOL-D267",
+            "department": "Biology",
+            "departmentCode": "BIOL",
+            "number": "D267",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Old charge read management production up our allow. Toward such new cultural analysis care kitchen. Difference range technology serious international position write those.",
+            "professor": "Garrett Stone",
+            "location": "PY 131",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "15:45",
+                "endTime": "16:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 42,
+                "enrolled": 37
+            },
+            "prerequisites": [
+                "BIOL-C179"
+            ],
+            "textbooks": [
+                "Management court head successful response hospital."
+            ],
+            "ocq": {
+                "overall": 3.8,
+                "difficulty": 2.8,
+                "workload": 4.5,
+                "organization": 4.5,
+                "comments": [
+                    {
+                        "text": "Suffer life chair senior seem west.",
+                        "date": "2024-09-04",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Remain decide happy another image because include.",
+                        "date": "2024-11-11",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 18,
+                "B": 19,
+                "C": 1,
+                "D": 4,
+                "F": 0,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c43",
+            "name": "Open-source needs-based database",
+            "code": "PSY-B101",
+            "department": "Psychology",
+            "departmentCode": "PSY",
+            "number": "B101",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Final name at painting room sell daughter. Serious fine seat should dream whose agreement tell. Happen letter body language there wonder him.",
+            "professor": "Tonya Barnett",
+            "location": "BH 418",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 75,
+                "enrolled": 75
+            },
+            "prerequisites": [
+                "PSY-B105"
+            ],
+            "textbooks": [
+                "Until direction opportunity very analysis firm once."
+            ],
+            "ocq": {
+                "overall": 4.9,
+                "difficulty": 4.2,
+                "workload": 3.9,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "As year look floor role agency its.",
+                        "date": "2024-12-18",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Seven those budget involve.",
+                        "date": "2024-04-16",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Evening his gas health sort couple station my.",
+                        "date": "2024-08-13",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 8,
+                "C": 10,
+                "D": 5,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "c44",
+            "name": "Profound neutral access",
+            "code": "POLS-D120",
+            "department": "Political Science",
+            "departmentCode": "POLS",
+            "number": "D120",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Case yet between night western serious. Now minute technology only magazine.",
+            "professor": "Jon Johnson",
+            "location": "HU 274",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "08:45",
+                "endTime": "09:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 71,
+                "enrolled": 57
+            },
+            "prerequisites": [
+                "POLS-C174"
+            ],
+            "textbooks": [
+                "Subject development best student describe concern professional."
+            ],
+            "ocq": {
+                "overall": 4.5,
+                "difficulty": 3.1,
+                "workload": 3.3,
+                "organization": 3.3,
+                "comments": [
+                    {
+                        "text": "Human participant seat give especially.",
+                        "date": "2025-03-17",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Wind natural customer letter finish campaign.",
+                        "date": "2024-11-07",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 17,
+                "C": 1,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c45",
+            "name": "Synchronized zero-defect throughput",
+            "code": "CSCI-D392",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "D392",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Be add sound. Republican without mention get. Become me story but order leg food.",
+            "professor": "Matthew Murphy",
+            "location": "HU 451",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "14:30",
+                "endTime": "15:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 22,
+                "enrolled": 17
+            },
+            "prerequisites": [
+                "CSCI-B105"
+            ],
+            "textbooks": [
+                "Drop join recognize all structure."
+            ],
+            "ocq": {
+                "overall": 3.9,
+                "difficulty": 4.5,
+                "workload": 2.6,
+                "organization": 4.4,
+                "comments": [
+                    {
+                        "text": "Away wish finish within president.",
+                        "date": "2024-07-24",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Situation eat thousand.",
+                        "date": "2024-10-21",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Employee argue home exactly.",
+                        "date": "2024-06-30",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 26,
+                "B": 15,
+                "C": 7,
+                "D": 2,
+                "F": 1,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c46",
+            "name": "Function-based foreground workforce",
+            "code": "POLS-C224",
+            "department": "Political Science",
+            "departmentCode": "POLS",
+            "number": "C224",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "College anything relationship local air ball. Station tough whether address. Moment buy east example identify likely.",
+            "professor": "Stacy Erickson",
+            "location": "SE 183",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "08:15",
+                "endTime": "09:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 78,
+                "enrolled": 29
+            },
+            "prerequisites": [
+                "POLS-C174"
+            ],
+            "textbooks": [
+                "Clearly thought modern dark."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 2.8,
+                "workload": 4.0,
+                "organization": 4.2,
+                "comments": [
+                    {
+                        "text": "Determine feeling certainly necessary.",
+                        "date": "2024-07-10",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 14,
+                "B": 6,
+                "C": 8,
+                "D": 1,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "c47",
+            "name": "Quality-focused 4thgeneration contingency",
+            "code": "PHIL-D439",
+            "department": "Philosophy",
+            "departmentCode": "PHIL",
+            "number": "D439",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Serve can street race seat. Would federal test some score reveal so.",
+            "professor": "Robert Butler",
+            "location": "HU 482",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "14:30",
+                "endTime": "15:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 59,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "PHIL-B116"
+            ],
+            "textbooks": [
+                "Artist cold measure defense mouth."
+            ],
+            "ocq": {
+                "overall": 4.5,
+                "difficulty": 2.4,
+                "workload": 2.3,
+                "organization": 4.0,
+                "comments": [
+                    {
+                        "text": "Billion talk mouth tonight throw action section.",
+                        "date": "2024-07-07",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Late every include generation how risk.",
+                        "date": "2025-03-16",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Only scientist teach seven.",
+                        "date": "2024-04-24",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 18,
+                "B": 14,
+                "C": 5,
+                "D": 0,
+                "F": 3,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c48",
+            "name": "Profound asymmetric solution",
+            "code": "CHEM-D369",
+            "department": "Chemistry",
+            "departmentCode": "CHEM",
+            "number": "D369",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Phone meeting add challenge project happen white maybe. Card look safe street current.",
+            "professor": "Jerry Strickland",
+            "location": "SE 275",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "08:15",
+                "endTime": "09:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 32,
+                "enrolled": 32
+            },
+            "prerequisites": [
+                "CHEM-C192"
+            ],
+            "textbooks": [
+                "Fund feeling cause stand visit red."
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.1,
+                "workload": 4.3,
+                "organization": 4.3,
+                "comments": [
+                    {
+                        "text": "Give point herself official receive may.",
+                        "date": "2024-12-21",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 21,
+                "B": 10,
+                "C": 4,
+                "D": 5,
+                "F": 2,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "c49",
+            "name": "Versatile non-volatile encoding",
+            "code": "CSCI-D476",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "D476",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Space military tonight sing. Structure positive true else feeling trade money. Why learn attention cut billion.",
+            "professor": "Daniel Robertson",
+            "location": "GY 392",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "14:00",
+                "endTime": "15:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 77,
+                "enrolled": 40
+            },
+            "prerequisites": [
+                "CSCI-C160"
+            ],
+            "textbooks": [
+                "Without wall stay describe time."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 3.1,
+                "workload": 3.3,
+                "organization": 4.6,
+                "comments": [
+                    {
+                        "text": "Community whole growth speech across yard admit parent.",
+                        "date": "2025-03-30",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Story financial state hotel.",
+                        "date": "2024-10-15",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Teach because it boy agent common.",
+                        "date": "2024-11-20",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 24,
+                "B": 7,
+                "C": 7,
+                "D": 5,
+                "F": 3,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "c50",
+            "name": "Public-key encompassing help-desk",
+            "code": "CHEM-C487",
+            "department": "Chemistry",
+            "departmentCode": "CHEM",
+            "number": "C487",
+            "credits": 4,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Somebody many character option. Only wait technology town approach today. Position possible career.",
+            "professor": "Sheila Cruz",
+            "location": "SE 412",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "15:00",
+                "endTime": "16:15"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 40,
+                "enrolled": 12
+            },
+            "prerequisites": [
+                "CHEM-B295"
+            ],
+            "textbooks": [
+                "Information forward trouble unit."
+            ],
+            "ocq": {
+                "overall": 4.1,
+                "difficulty": 3.1,
+                "workload": 3.6,
+                "organization": 4.3,
+                "comments": [
+                    {
+                        "text": "Country article will firm woman section magazine loss.",
+                        "date": "2025-03-24",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Especially position learn senior today mention.",
+                        "date": "2024-11-07",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Part instead city type short rather.",
+                        "date": "2025-02-13",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 21,
+                "B": 9,
+                "C": 10,
+                "D": 5,
+                "F": 2,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "hhc_h211_1",
+            "name": "Classic Authors & Questions I",
+            "code": "HHC-H 211",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H211",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Class subtitle: The Hero(ine). Above class open to Hutton Honors College students only. Fulfills English composition requirement.",
+            "professor": "Cecil R",
+            "location": "HU 108",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 21
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.3,
+                "difficulty": 2.8,
+                "workload": 2.5,
+                "organization": 4.1,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 14,
+                "B": 5,
+                "C": 2,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "hhc_h212_1",
+            "name": "Past Authors, Questions II",
+            "code": "HHC-H 212",
+            "department": "Hutton Honors College",
+            "departmentCode": "HHC",
+            "number": "H212",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Class subtitle: Perspectives on Liberty and Equality. Completion of the English composition requirement.",
+            "professor": "Furniss N",
+            "location": "HU 111",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 20
+            },
+            "prerequisites": [],
+            "textbooks": [
+                "To be announced"
+            ],
+            "ocq": {
+                "overall": 4.0,
+                "difficulty": 3.0,
+                "workload": 3.0,
+                "organization": 3.8,
+                "comments": []
+            },
+            "gradeDistribution": {
+                "A": 13,
+                "B": 6,
+                "C": 1,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "m1",
+            "name": "Revolutionize One-To-One Applications",
+            "code": "CSCI-D621",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "D621",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Rather beyond share energy size. Meeting movie avoid American address simply. Thousand impact six loss.",
+            "professor": "Sara Francis",
+            "location": "HU 169",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "08:00",
+                "endTime": "09:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 22,
+                "enrolled": 11
+            },
+            "prerequisites": [
+                "CSCI-D328"
+            ],
+            "textbooks": [
+                "Finish star be."
+            ],
+            "ocq": {
+                "overall": 4.5,
+                "difficulty": 3.4,
+                "workload": 3.1,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "Popular see different decide trip total.",
+                        "date": "2024-04-22",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 22,
+                "B": 9,
+                "C": 5,
+                "D": 3,
+                "F": 1,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m2",
+            "name": "Expedite Wireless Channels",
+            "code": "INFO-D630",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "D630",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Sea knowledge my night. Popular open collection become. Explain education idea across player appear similar.",
+            "professor": "Michele Russell",
+            "location": "LH 183",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "16:00",
+                "endTime": "17:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 28,
+                "enrolled": 14
+            },
+            "prerequisites": [
+                "INFO-D490"
+            ],
+            "textbooks": [
+                "Then police choice cell."
+            ],
+            "ocq": {
+                "overall": 4.5,
+                "difficulty": 3.3,
+                "workload": 2.9,
+                "organization": 4.6,
+                "comments": [
+                    {
+                        "text": "Care yet well according star study form.",
+                        "date": "2025-01-20",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 27,
+                "B": 10,
+                "C": 5,
+                "D": 1,
+                "F": 2,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "m3",
+            "name": "Optimize E-Business Relationships",
+            "code": "DSCI-D566",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D566",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Money ball keep since my necessary million. Century hundred themselves finish these. Choose himself north professional.",
+            "professor": "Jerry Fleming",
+            "location": "HU 333",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "18:15",
+                "endTime": "18:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 29,
+                "enrolled": 24
+            },
+            "prerequisites": [
+                "DSCI-D308"
+            ],
+            "textbooks": [
+                "Environment few voice thank local option five."
+            ],
+            "ocq": {
+                "overall": 4.8,
+                "difficulty": 3.1,
+                "workload": 4.4,
+                "organization": 3.4,
+                "comments": [
+                    {
+                        "text": "Level generation since also himself with garden mention.",
+                        "date": "2024-07-10",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Baby book itself people nation million born.",
+                        "date": "2024-04-19",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 24,
+                "B": 10,
+                "C": 6,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m4",
+            "name": "Maximize Synergistic Paradigms",
+            "code": "DSCI-B639",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "B639",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Ability possible door pressure sea thought. Two seven lose probably. Strategy receive rate oil.",
+            "professor": "Catherine Adams",
+            "location": "LH 365",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "14:30",
+                "endTime": "15:45"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 41,
+                "enrolled": 10
+            },
+            "prerequisites": [
+                "DSCI-C385"
+            ],
+            "textbooks": [
+                "Trial religious your outside wish."
+            ],
+            "ocq": {
+                "overall": 4.8,
+                "difficulty": 3.5,
+                "workload": 4.5,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "Particularly firm foreign involve.",
+                        "date": "2025-01-27",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 20,
+                "B": 5,
+                "C": 3,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m5",
+            "name": "Cultivate B2B Mindshare",
+            "code": "INFO-B511",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B511",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Effort drop onto until head. Draw front plan focus century service nearly.",
+            "professor": "David James",
+            "location": "GY 430",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "08:15",
+                "endTime": "09:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 23,
+                "enrolled": 21
+            },
+            "prerequisites": [
+                "INFO-B404"
+            ],
+            "textbooks": [
+                "Relate others throw land daughter consider group."
+            ],
+            "ocq": {
+                "overall": 3.6,
+                "difficulty": 3.2,
+                "workload": 4.3,
+                "organization": 4.5,
+                "comments": [
+                    {
+                        "text": "Report become market decision hope.",
+                        "date": "2024-10-19",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Government image room analysis what.",
+                        "date": "2024-11-24",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Suggest learn economy explain.",
+                        "date": "2024-10-09",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 10,
+                "C": 1,
+                "D": 3,
+                "F": 2,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m6",
+            "name": "Deploy Turn-Key Methodologies",
+            "code": "INFO-B591",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B591",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Throughout free civil entire.",
+            "professor": "Melissa Terry",
+            "location": "LH 163",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "14:00",
+                "endTime": "15:15"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 21,
+                "enrolled": 15
+            },
+            "prerequisites": [
+                "INFO-C441"
+            ],
+            "textbooks": [
+                "Just nature increase trouble heart watch bed."
+            ],
+            "ocq": {
+                "overall": 4.6,
+                "difficulty": 3.9,
+                "workload": 3.5,
+                "organization": 4.7,
+                "comments": [
+                    {
+                        "text": "Yet so before wrong.",
+                        "date": "2025-03-01",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Message western stage yes too dog among believe.",
+                        "date": "2025-04-01",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Before open hot campaign throughout.",
+                        "date": "2025-04-04",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 30,
+                "B": 8,
+                "C": 2,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m7",
+            "name": "Re-Contextualize 24/365 Niches",
+            "code": "INFO-B539",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B539",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Candidate direction many field. Even bad together professional wind consider that admit.",
+            "professor": "Terry Garza",
+            "location": "HU 420",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "13:15",
+                "endTime": "14:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 38,
+                "enrolled": 11
+            },
+            "prerequisites": [
+                "INFO-D337"
+            ],
+            "textbooks": [
+                "Probably question sense scientist bank result peace."
+            ],
+            "ocq": {
+                "overall": 3.7,
+                "difficulty": 4.1,
+                "workload": 2.8,
+                "organization": 4.4,
+                "comments": [
+                    {
+                        "text": "Social say about century debate.",
+                        "date": "2024-11-14",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Industry certainly Mrs.",
+                        "date": "2024-10-16",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Wear prove lead professional kind wait.",
+                        "date": "2024-12-07",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 30,
+                "B": 17,
+                "C": 1,
+                "D": 1,
+                "F": 1,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "m8",
+            "name": "Drive Efficient Methodologies",
+            "code": "INFO-B560",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B560",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Open executive experience hotel compare box operation. Might catch that trip. Institution to movie seven.",
+            "professor": "Ashlee Henry",
+            "location": "BH 215",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "17:15",
+                "endTime": "18:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 30,
+                "enrolled": 23
+            },
+            "prerequisites": [
+                "INFO-D497"
+            ],
+            "textbooks": [
+                "School enter wind heavy."
+            ],
+            "ocq": {
+                "overall": 3.5,
+                "difficulty": 4.4,
+                "workload": 2.5,
+                "organization": 3.8,
+                "comments": [
+                    {
+                        "text": "General television save.",
+                        "date": "2024-08-31",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 10,
+                "B": 5,
+                "C": 6,
+                "D": 4,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m9",
+            "name": "Engage End-To-End Users",
+            "code": "CSCI-B646",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "B646",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Seven write decision data wrong best I. Pull see collection cut drive out image. Defense cup man course teacher message page.",
+            "professor": "Mary Torres",
+            "location": "HU 175",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "14:30",
+                "endTime": "15:45"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 29,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "CSCI-B335"
+            ],
+            "textbooks": [
+                "Officer police it house political energy song."
+            ],
+            "ocq": {
+                "overall": 4.0,
+                "difficulty": 2.9,
+                "workload": 3.3,
+                "organization": 3.3,
+                "comments": [
+                    {
+                        "text": "Owner ahead generation shoulder day popular window key.",
+                        "date": "2024-10-22",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Stay century law before everybody.",
+                        "date": "2024-12-12",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Hot scene view today father.",
+                        "date": "2024-12-20",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 18,
+                "C": 4,
+                "D": 3,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m10",
+            "name": "Evolve 24/7 Models",
+            "code": "INFO-B665",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B665",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Tv drive adult executive military plan. Break focus raise away.",
+            "professor": "Marc Davis",
+            "location": "GY 303",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "16:30",
+                "endTime": "17:45"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 57,
+                "enrolled": 14
+            },
+            "prerequisites": [
+                "INFO-B454"
+            ],
+            "textbooks": [
+                "Customer far recently prepare scene."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 3.4,
+                "workload": 3.0,
+                "organization": 3.1,
+                "comments": [
+                    {
+                        "text": "Along kid explain product money store.",
+                        "date": "2024-10-11",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Choice chance of enter deep walk.",
+                        "date": "2024-05-28",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 13,
+                "B": 6,
+                "C": 3,
+                "D": 5,
+                "F": 3,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m11",
+            "name": "Grow Cutting-Edge Roi",
+            "code": "INFO-D610",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "D610",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Positive better management minute air represent. Beat start say either none heavy down business.",
+            "professor": "Elizabeth Harrison",
+            "location": "LH 465",
+            "schedule": {
+                "days": [
+                    "Tuesday",
+                    "Thursday"
+                ],
+                "startTime": "10:30",
+                "endTime": "11:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 49,
+                "enrolled": 48
+            },
+            "prerequisites": [
+                "INFO-C340"
+            ],
+            "textbooks": [
+                "Way sister civil market value during difficult religious."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 4.5,
+                "workload": 3.1,
+                "organization": 4.0,
+                "comments": [
+                    {
+                        "text": "Ten will summer specific.",
+                        "date": "2024-11-19",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Concern black believe performance officer election information among.",
+                        "date": "2024-05-03",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 30,
+                "B": 16,
+                "C": 8,
+                "D": 5,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m12",
+            "name": "Orchestrate Customized Markets",
+            "code": "INFO-B685",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B685",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Present defense become result easy.",
+            "professor": "David Russell",
+            "location": "HU 266",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "16:45",
+                "endTime": "17:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 38,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "INFO-D405"
+            ],
+            "textbooks": [
+                "Defense floor themselves she inside mind without."
+            ],
+            "ocq": {
+                "overall": 3.9,
+                "difficulty": 4.0,
+                "workload": 3.2,
+                "organization": 3.3,
+                "comments": [
+                    {
+                        "text": "Resource pretty write under fear knowledge.",
+                        "date": "2024-12-06",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Down positive tough fill happy.",
+                        "date": "2024-09-25",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Hit poor appear.",
+                        "date": "2025-01-30",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 23,
+                "B": 17,
+                "C": 8,
+                "D": 0,
+                "F": 0,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m13",
+            "name": "Revolutionize Front-End Mindshare",
+            "code": "DSCI-B543",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "B543",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Crime study environment style remain cup they. Middle car market wear commercial. Debate energy religious.",
+            "professor": "Jessica Carr",
+            "location": "PY 206",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "10:45",
+                "endTime": "11:00"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 30,
+                "enrolled": 17
+            },
+            "prerequisites": [
+                "DSCI-D488"
+            ],
+            "textbooks": [
+                "Price job follow result."
+            ],
+            "ocq": {
+                "overall": 3.9,
+                "difficulty": 4.1,
+                "workload": 3.9,
+                "organization": 4.6,
+                "comments": [
+                    {
+                        "text": "Form single camera political economic.",
+                        "date": "2025-01-24",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Kid reach government support improve once worry.",
+                        "date": "2024-11-06",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 20,
+                "B": 15,
+                "C": 9,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m14",
+            "name": "Exploit Customized Channels",
+            "code": "DSCI-D560",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D560",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Down PM benefit arm subject over feeling. Buy protect front why ability fund front. Drug thing number end commercial.",
+            "professor": "Travis Warren",
+            "location": "GY 277",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "14:00",
+                "endTime": "15:15"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 44,
+                "enrolled": 40
+            },
+            "prerequisites": [
+                "DSCI-B337"
+            ],
+            "textbooks": [
+                "Hundred billion blue right fine boy sing."
+            ],
+            "ocq": {
+                "overall": 3.5,
+                "difficulty": 3.7,
+                "workload": 3.9,
+                "organization": 4.9,
+                "comments": [
+                    {
+                        "text": "Bill pattern scientist early.",
+                        "date": "2025-02-22",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Range know close election.",
+                        "date": "2025-02-20",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Key story agree her.",
+                        "date": "2024-05-21",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 16,
+                "B": 8,
+                "C": 5,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m15",
+            "name": "Transform Extensible Infrastructures",
+            "code": "CSCI-B502",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "B502",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Leg organization nice happy international. Open wife owner. Get finish pick shake level.",
+            "professor": "Jane Scott",
+            "location": "LH 285",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "13:30",
+                "endTime": "14:45"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 50,
+                "enrolled": 30
+            },
+            "prerequisites": [
+                "CSCI-C498"
+            ],
+            "textbooks": [
+                "General simple cost develop left."
+            ],
+            "ocq": {
+                "overall": 3.8,
+                "difficulty": 2.8,
+                "workload": 3.6,
+                "organization": 4.8,
+                "comments": [
+                    {
+                        "text": "Head perform walk.",
+                        "date": "2024-07-24",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Again big role stand consider.",
+                        "date": "2025-02-15",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Week own necessary allow including level.",
+                        "date": "2025-03-10",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 15,
+                "B": 18,
+                "C": 10,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m16",
+            "name": "Grow Out-Of-The-Box Synergies",
+            "code": "DSCI-D567",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D567",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Rest really wait if. Debate into name response garden.",
+            "professor": "Damon Henry",
+            "location": "LH 400",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "17:00",
+                "endTime": "18:15"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 28,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "DSCI-B464"
+            ],
+            "textbooks": [
+                "Culture far share."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 3.2,
+                "workload": 3.5,
+                "organization": 3.9,
+                "comments": [
+                    {
+                        "text": "Large message exist word beat her.",
+                        "date": "2024-09-11",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Sit receive policy discussion machine hundred.",
+                        "date": "2024-04-04",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 18,
+                "B": 20,
+                "C": 9,
+                "D": 5,
+                "F": 3,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m17",
+            "name": "Whiteboard User-Centric Functionalities",
+            "code": "INFO-B558",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B558",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Research wind yard street only over. Natural fight stand one significant get interesting. Financial race wrong discuss agency fund.",
+            "professor": "John Ross",
+            "location": "HU 286",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "09:00",
+                "endTime": "10:15"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 30,
+                "enrolled": 19
+            },
+            "prerequisites": [
+                "INFO-C444"
+            ],
+            "textbooks": [
+                "Start market attorney between."
+            ],
+            "ocq": {
+                "overall": 4.9,
+                "difficulty": 3.6,
+                "workload": 3.0,
+                "organization": 3.5,
+                "comments": [
+                    {
+                        "text": "Allow power condition pressure would truth join issue.",
+                        "date": "2024-07-25",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 14,
+                "B": 16,
+                "C": 2,
+                "D": 1,
+                "F": 0,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m18",
+            "name": "Strategize Visionary Content",
+            "code": "DSCI-B501",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "B501",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "List run safe figure. Allow star forward leave art practice.",
+            "professor": "Amanda Mendoza",
+            "location": "LH 307",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "15:30",
+                "endTime": "16:45"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 55,
+                "enrolled": 54
+            },
+            "prerequisites": [
+                "DSCI-B475"
+            ],
+            "textbooks": [
+                "Detail value plant nature day."
+            ],
+            "ocq": {
+                "overall": 3.5,
+                "difficulty": 3.0,
+                "workload": 4.2,
+                "organization": 3.6,
+                "comments": [
+                    {
+                        "text": "Interest amount understand hard.",
+                        "date": "2024-07-27",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 16,
+                "C": 9,
+                "D": 2,
+                "F": 0,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m19",
+            "name": "Monetize Leading-Edge Synergies",
+            "code": "INFO-D557",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "D557",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Power one after score career big remember. Since break star various item boy response knowledge.",
+            "professor": "Andrew Golden",
+            "location": "SE 288",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "11:45",
+                "endTime": "12:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 44,
+                "enrolled": 19
+            },
+            "prerequisites": [
+                "INFO-C372"
+            ],
+            "textbooks": [
+                "Road collection big talk role instead candidate."
+            ],
+            "ocq": {
+                "overall": 4.1,
+                "difficulty": 2.8,
+                "workload": 4.1,
+                "organization": 3.8,
+                "comments": [
+                    {
+                        "text": "Media along these easy role yes to more.",
+                        "date": "2024-08-07",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Recognize national training drug really check if.",
+                        "date": "2025-01-30",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Same wall measure again ability election.",
+                        "date": "2024-12-24",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 21,
+                "B": 16,
+                "C": 7,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m20",
+            "name": "Scale Best-Of-Breed Experiences",
+            "code": "DSCI-D526",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D526",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Every end catch American. Spend food world believe soldier certain. Fly play pay real good.",
+            "professor": "Charlotte Poole",
+            "location": "GY 249",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "11:15",
+                "endTime": "12:30"
+            },
+            "mode": "Online",
+            "availability": {
+                "total": 27,
+                "enrolled": 24
+            },
+            "prerequisites": [
+                "DSCI-C358"
+            ],
+            "textbooks": [
+                "Show whatever simple wrong newspaper allow."
+            ],
+            "ocq": {
+                "overall": 3.7,
+                "difficulty": 3.3,
+                "workload": 3.3,
+                "organization": 4.0,
+                "comments": [
+                    {
+                        "text": "Discuss almost serious Mr sing city.",
+                        "date": "2024-07-14",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Season environment bag.",
+                        "date": "2024-08-12",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Account question dinner write usually team.",
+                        "date": "2025-01-04",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 22,
+                "B": 14,
+                "C": 8,
+                "D": 1,
+                "F": 2,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m21",
+            "name": "Reinvent Dot-Com Relationships",
+            "code": "CSCI-D581",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "D581",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Current note order impact spend question election. Sometimes city commercial.",
+            "professor": "Samantha Walters",
+            "location": "GY 216",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "09:30",
+                "endTime": "10:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 47,
+                "enrolled": 13
+            },
+            "prerequisites": [
+                "CSCI-D383"
+            ],
+            "textbooks": [
+                "Doctor nature cup whom poor send."
+            ],
+            "ocq": {
+                "overall": 3.8,
+                "difficulty": 2.9,
+                "workload": 3.9,
+                "organization": 3.1,
+                "comments": [
+                    {
+                        "text": "Law national last people friend.",
+                        "date": "2025-02-17",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 22,
+                "B": 5,
+                "C": 3,
+                "D": 0,
+                "F": 1,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m22",
+            "name": "Seize Bricks-And-Clicks Initiatives",
+            "code": "DSCI-D550",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D550",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Reveal safe PM too right. Top his outside project us pass management serious. Child investment yourself still.",
+            "professor": "Alice Cox",
+            "location": "EP 100",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "16:15",
+                "endTime": "17:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 53,
+                "enrolled": 49
+            },
+            "prerequisites": [
+                "DSCI-B406"
+            ],
+            "textbooks": [
+                "Education red citizen notice feeling."
+            ],
+            "ocq": {
+                "overall": 4.1,
+                "difficulty": 4.1,
+                "workload": 3.4,
+                "organization": 3.8,
+                "comments": [
+                    {
+                        "text": "Better child computer either.",
+                        "date": "2025-03-20",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 18,
+                "B": 5,
+                "C": 10,
+                "D": 2,
+                "F": 2,
+                "Withdraw": 2
+            }
+        },
+        {
+            "id": "m23",
+            "name": "Visualize Next-Generation Vortals",
+            "code": "DSCI-D664",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D664",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Fire education expect part age visit message maybe. Evening prevent image already again new.",
+            "professor": "Jessica Marshall",
+            "location": "PY 405",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "09:30",
+                "endTime": "10:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 53,
+                "enrolled": 15
+            },
+            "prerequisites": [
+                "DSCI-D336"
+            ],
+            "textbooks": [
+                "Republican agent manage special way."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 3.8,
+                "workload": 3.3,
+                "organization": 4.1,
+                "comments": [
+                    {
+                        "text": "Near model new run tonight official.",
+                        "date": "2025-02-11",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Senior parent decision involve despite close paper pick.",
+                        "date": "2025-04-01",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Firm key reason choice site suddenly man.",
+                        "date": "2025-01-04",
+                        "rating": 4
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 26,
+                "B": 8,
+                "C": 9,
+                "D": 0,
+                "F": 3,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m24",
+            "name": "Mesh Magnetic Paradigms",
+            "code": "DSCI-D620",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "D620",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Benefit thus mean certainly value create agree likely. Model cause letter career election few turn. Tree amount billion beyond quality fill final.",
+            "professor": "Jorge Long",
+            "location": "PY 332",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "12:45",
+                "endTime": "13:00"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 55,
+                "enrolled": 31
+            },
+            "prerequisites": [
+                "DSCI-D429"
+            ],
+            "textbooks": [
+                "Half side price little identify degree individual environment."
+            ],
+            "ocq": {
+                "overall": 4.0,
+                "difficulty": 4.1,
+                "workload": 3.0,
+                "organization": 3.5,
+                "comments": [
+                    {
+                        "text": "It manage heavy investment day interest side.",
+                        "date": "2024-07-16",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Speak let guy son.",
+                        "date": "2024-09-25",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 24,
+                "B": 5,
+                "C": 9,
+                "D": 3,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m25",
+            "name": "Facilitate Interactive Communities",
+            "code": "INFO-B564",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B564",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Child Mr painting role company produce clear. Production your both focus foreign four.",
+            "professor": "Cameron Morgan",
+            "location": "GY 343",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "13:45",
+                "endTime": "14:00"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 29,
+                "enrolled": 17
+            },
+            "prerequisites": [
+                "INFO-B433"
+            ],
+            "textbooks": [
+                "Country power police."
+            ],
+            "ocq": {
+                "overall": 4.5,
+                "difficulty": 2.9,
+                "workload": 4.4,
+                "organization": 4.3,
+                "comments": [
+                    {
+                        "text": "Summer city when bag.",
+                        "date": "2024-10-24",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 14,
+                "B": 15,
+                "C": 1,
+                "D": 2,
+                "F": 1,
+                "Withdraw": 3
+            }
+        },
+        {
+            "id": "m26",
+            "name": "Productize Back-End Platforms",
+            "code": "INFO-B605",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "B605",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Religious around both place. Parent behind bank oil describe section. Suddenly idea common laugh environment.",
+            "professor": "Patrick Myers",
+            "location": "GY 198",
+            "schedule": {
+                "days": [
+                    "Monday"
+                ],
+                "startTime": "18:15",
+                "endTime": "18:30"
+            },
+            "mode": "Hybrid",
+            "availability": {
+                "total": 30,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "INFO-C346"
+            ],
+            "textbooks": [
+                "Phone positive idea throughout concern class."
+            ],
+            "ocq": {
+                "overall": 4.3,
+                "difficulty": 3.6,
+                "workload": 4.2,
+                "organization": 4.2,
+                "comments": [
+                    {
+                        "text": "Deep minute top group.",
+                        "date": "2025-01-14",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 29,
+                "B": 20,
+                "C": 10,
+                "D": 1,
+                "F": 3,
+                "Withdraw": 0
+            }
+        },
+        {
+            "id": "m27",
+            "name": "Target E-Business Supply-Chains",
+            "code": "CSCI-D654",
+            "department": "Computer Science",
+            "departmentCode": "CSCI",
+            "number": "D654",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Cause compare difficult discuss. Trouble key between seem. Follow current pay fire.",
+            "professor": "Rebecca Cuevas",
+            "location": "EP 262",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "08:15",
+                "endTime": "09:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 55,
+                "enrolled": 22
+            },
+            "prerequisites": [
+                "CSCI-C472"
+            ],
+            "textbooks": [
+                "Team operation point loss mean production establish."
+            ],
+            "ocq": {
+                "overall": 4.4,
+                "difficulty": 3.8,
+                "workload": 2.7,
+                "organization": 4.9,
+                "comments": [
+                    {
+                        "text": "Adult range true even matter.",
+                        "date": "2025-01-04",
+                        "rating": 4
+                    },
+                    {
+                        "text": "Find community any morning.",
+                        "date": "2024-10-26",
+                        "rating": 5
+                    },
+                    {
+                        "text": "Partner national probably thank fish somebody dinner.",
+                        "date": "2024-08-10",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 19,
+                "B": 15,
+                "C": 8,
+                "D": 5,
+                "F": 1,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m28",
+            "name": "Synthesize B2B Deliverables",
+            "code": "INFO-D683",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "D683",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Ability no affect catch. Area traditional property she. Serve rule thus.",
+            "professor": "Sarah Hester",
+            "location": "GY 300",
+            "schedule": {
+                "days": [
+                    "Monday",
+                    "Wednesday"
+                ],
+                "startTime": "10:15",
+                "endTime": "11:30"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 48,
+                "enrolled": 30
+            },
+            "prerequisites": [
+                "INFO-B400"
+            ],
+            "textbooks": [
+                "Western worry week people worker time."
+            ],
+            "ocq": {
+                "overall": 4.9,
+                "difficulty": 3.9,
+                "workload": 2.9,
+                "organization": 3.7,
+                "comments": [
+                    {
+                        "text": "Hot always say notice though.",
+                        "date": "2025-01-15",
+                        "rating": 3
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 22,
+                "B": 11,
+                "C": 2,
+                "D": 3,
+                "F": 3,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m29",
+            "name": "Implement Next-Generation Eyeballs",
+            "code": "DSCI-B671",
+            "department": "Data Science",
+            "departmentCode": "DSCI",
+            "number": "B671",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Third since laugh model make. Might fight social forward provide. Yeah sense up add subject research.",
+            "professor": "Amy Fields",
+            "location": "PY 371",
+            "schedule": {
+                "days": [
+                    "Wednesday",
+                    "Friday"
+                ],
+                "startTime": "16:00",
+                "endTime": "17:15"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 51,
+                "enrolled": 29
+            },
+            "prerequisites": [
+                "DSCI-D487"
+            ],
+            "textbooks": [
+                "Idea school still up radio."
+            ],
+            "ocq": {
+                "overall": 4.2,
+                "difficulty": 2.5,
+                "workload": 3.3,
+                "organization": 4.5,
+                "comments": [
+                    {
+                        "text": "Local week color wait.",
+                        "date": "2024-06-17",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Thank establish subject clearly.",
+                        "date": "2025-03-01",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 10,
+                "B": 12,
+                "C": 10,
+                "D": 0,
+                "F": 2,
+                "Withdraw": 1
+            }
+        },
+        {
+            "id": "m30",
+            "name": "Reinvent Holistic Initiatives",
+            "code": "INFO-D528",
+            "department": "Information Science",
+            "departmentCode": "INFO",
+            "number": "D528",
+            "credits": 3,
+            "term": "Fall",
+            "year": 2024,
+            "description": "Although say bed second behind vote case.",
+            "professor": "Mr. Warren Wilson",
+            "location": "HU 328",
+            "schedule": {
+                "days": [
+                    "Friday"
+                ],
+                "startTime": "14:30",
+                "endTime": "15:45"
+            },
+            "mode": "In-Person",
+            "availability": {
+                "total": 37,
+                "enrolled": 36
+            },
+            "prerequisites": [
+                "INFO-D367"
+            ],
+            "textbooks": [
+                "Decide grow between heavy by of mission."
+            ],
+            "ocq": {
+                "overall": 4.9,
+                "difficulty": 2.6,
+                "workload": 3.1,
+                "organization": 4.2,
+                "comments": [
+                    {
+                        "text": "Difference others know expert cell style believe tough.",
+                        "date": "2025-04-04",
+                        "rating": 3
+                    },
+                    {
+                        "text": "Concern reach every put.",
+                        "date": "2024-06-08",
+                        "rating": 5
+                    }
+                ]
+            },
+            "gradeDistribution": {
+                "A": 25,
+                "B": 18,
+                "C": 6,
+                "D": 3,
+                "F": 0,
+                "Withdraw": 0
+            }
+        }
+    ]
+}
