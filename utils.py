@@ -42,7 +42,14 @@ def get_gemini_response(user_query, chat_history=None):
         "You must only recommend courses from the provided list and explain your reasoning.\n\n"
         "Here is the course catalog:\n\n" + COURSE_CONTEXT +
         "Do not give me any text in bold and also do not use any markdown formatting. Do not give any additional information or context outside of the course catalog provided."
-        "Only respond with the course recommendations and explanations based on the user's query and give me the reponse strictly in html format only."
+        "Only respond with the course recommendations and explanations based on the user's query and give me the reponse strictly in html format only. Do not add any ticks (`) or code blocks (```), and do not use any markdown formatting."
+        """
+        "<html>\n"
+        "<body>\n"
+        "[Your response content here]\n"
+        "</body>\n"
+        "</html>\n"
+        """
     )
 
     contents = [{"role": "user", "parts": [system_prompt]}]
