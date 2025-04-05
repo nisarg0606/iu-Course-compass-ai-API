@@ -61,3 +61,38 @@ def get_gemini_response(user_query, chat_history=None):
 
     response = model.generate_content(contents)
     return response.text
+
+
+user_sessions = {}
+
+def user_sign_in(username, password):
+    """
+    Sign in a user by creating a session.
+
+    Args:
+        username (str): The username of the user.
+        password (str): The password of the user.
+
+    Returns:
+        str: A success message indicating the user has signed in.
+    """
+    # Create a session for the user
+    user_sessions[username] = True
+    return f"User '{username}' signed in successfully."
+
+def user_sign_out(username):
+    """
+    Sign out a user by removing their session.
+
+    Args:
+        username (str): The username of the user.
+
+    Returns:
+        str: A success message if sign-out is successful, or an error message if the user is not signed in.
+    """
+    if username in user_sessions:
+        # Remove the user's session
+        del user_sessions[username]
+        return f"User '{username}' signed out successfully."
+    else:
+        return "Error: User is not signed in."
