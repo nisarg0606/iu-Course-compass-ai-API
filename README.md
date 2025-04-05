@@ -30,7 +30,7 @@ This project, **IU Course Compass AI API**, is designed to provide intelligent c
     ```bash
     fastapi dev main.py
     ```
-2. Access the API at `http://localhost:3000`.
+2. Access the API at `http://localhost:8000`.
 
 ## API Endpoints
 
