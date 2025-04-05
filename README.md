@@ -21,16 +21,16 @@ This project, **IU Course Compass AI API**, is designed to provide intelligent c
     ```
 3. Install dependencies:
     ```bash
-    npm install
+    pip install -r requirements.txt
     ```
 
 ## Usage
 
 1. Start the server:
     ```bash
-    npm start
+    fastapi dev main.py
     ```
-2. Access the API at `http://localhost:3000`.
+2. Access the API at `http://localhost:8000`.
 
 ## API Endpoints
 
