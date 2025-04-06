@@ -3,8 +3,14 @@ from fastapi import FastAPI, HTTPException, Form
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
+from fastapi.responses import StreamingResponse
+from io import BytesIO
 
-from utils import gemini_recommend_course, get_gemini_response, catalog, user_sign_in, user_sign_out, user_signup, course_recommendation
+
+
+from utils import gemini_recommend_course, generate_course_roadmap_image, get_gemini_response, catalog, user_sign_in, user_sign_out, user_signup, course_recommendation
+
+
 
 app = FastAPI()
 
@@ -35,6 +41,10 @@ class RecommendationRequest(BaseModel):
     subject: str
     enrollment_type: Optional[str] = None  # Optional field for enrollment type
     available_days: Optional[List[str]] = None  # Optional field for available days
+
+class RoadmapRequest(BaseModel):
+    previous_courses: List[str]
+    career_goal: str
 
 # Chat endpoint
 @app.post("/chat")
@@ -119,3 +129,13 @@ async def get_recommendations():
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
         
+@app.post("/roadmap")
+async def generate_roadmap(request: RoadmapRequest):
+    try:
+        image_data = generate_course_roadmap_image(
+            previous_courses=request.previous_courses,
+            career_goal=request.career_goal
+        )
+        return StreamingResponse(BytesIO(image_data), media_type="image/png")
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
