@@ -315,3 +315,35 @@ def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str
     except Exception as e:
         # print("\nException caught:\n", str(e))
         raise HTTPException(status_code=500, detail=f"Server error: {str(e)}")
+    
+def prerequisite_check(course_code):
+    """
+    Check if a course has prerequisites.
+
+    Args:
+        course_code (str): The course code to check.
+
+    Returns:
+        bool: True if the course has prerequisites, False otherwise.
+    """
+    for course in courses:
+        if course["code"] == course_code:
+            return bool(course.get("prerequisites"))
+    return True
+
+def validate_course_prerequisites(course_code, selected_courses):
+    """
+    Validate if the selected courses meet the prerequisites for a given course.
+
+    Args:
+        course_code (str): The course code to validate.
+        selected_courses (list): List of selected course codes.
+
+    Returns:
+        bool: True if prerequisites are met, False otherwise.
+    """
+    for course in courses:
+        if course["code"] == course_code:
+            prerequisites = course.get("prerequisites", [])
+            return all(prereq in selected_courses for prereq in prerequisites)
+    return True
