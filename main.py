@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 
-from utils import get_gemini_response, catalog, user_sign_in, user_sign_out, user_signup
+from utils import gemini_recommend_course, get_gemini_response, catalog, user_sign_in, user_sign_out, user_signup
 
 app = FastAPI()
 
@@ -30,6 +30,12 @@ class SignInRequest(BaseModel):
 # Request body model for sign-out
 class SignOutRequest(BaseModel):
     username: str  # Only username is required for sign-out
+
+class RecommendationRequest(BaseModel):
+    career_goal: str
+    subject: str
+    enrollment_type: Optional[str] = None  # Optional field for enrollment type
+    available_days: Optional[List[str]] = None  # Optional field for available days
 
 # Chat endpoint
 @app.post("/chat")
@@ -82,5 +88,23 @@ async def sign_out(username: str = Form(...)):
     try:
         message = user_sign_out(username)
         return {"message": message}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+#give me the endpoint to get recommendation from the model based on user query and chat history use the recommend_course function from utils.py
+@app.post("/recommendations")
+async def get_recommendations(request: RecommendationRequest):
+    """
+    Get course recommendations from the Gemini model based on the user's career goal, subject, and preferences.
+    """
+    try:
+        # Call the gemini_recommend_course function from utils.py
+        recommendations = gemini_recommend_course(
+            career_goal=request.career_goal,
+            subject=request.subject,
+            enrollment_type=request.enrollment_type,
+            available_days=request.available_days
+        )
+        return {"recommendations": recommendations}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

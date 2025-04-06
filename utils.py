@@ -1,6 +1,7 @@
 # utils.py
 import json
 import os
+import re
 import google.generativeai as genai
 from dotenv import load_dotenv
 from pymongo import MongoClient
@@ -175,3 +176,52 @@ def get_collection(collection_name):
         pymongo.collection.Collection: The requested collection.
     """
     return mongo_db[collection_name]
+
+# I want a function to recommend a course from the course catalog based on a user's career goal and subject which will be mandatorily provided by the user and optional parameters enrolment type and available days through the gemini api
+def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str = None, available_days: list = None):
+    model = genai.GenerativeModel("gemini-2.0-flash")
+
+    system_prompt = (
+    """
+    Recommend a course based on the user's career goal and subject.
+
+    Args:
+        career_goal (str): The user's career goal.
+        subject (str): The subject of interest.
+        enrollment_type (str, optional): Preferred enrollment type (e.g., "online", "in-person").
+        available_days (list, optional): Preferred days of the week for classes.
+
+    Returns:
+        str: Recommended course details or a message if no suitable course is found.
+    give me the response strictly in the below JSON format only:
+    {
+        "mode": "online" or "in-person" or "hybrid",
+        "term": "Fall" or "Spring" or "Summer",
+        "code": "CS101",
+        "name": "Introduction to Computer Science",
+        "professor": "Dr. Smith",
+        "schedule" : { "days": ["Monday"], "startTime": "09:00", "endTime": "10:30" },
+        "credits": 3,
+        "description": "An introduction to the fundamentals of computer science, including programming, algorithms, and data structures.",
+    }
+    """
+    )
+    query = f"'{system_prompt} 'Recommend two courses for someone whose career goal is '{career_goal}' and is interested in '{subject}'. Give me the response strictly in the JSON format mentioned above even if there are multiple courses recommended. "
+    
+    if enrollment_type:
+        query += f" Prefer {enrollment_type} enrollment."
+    
+    if available_days:
+        query += f" Available on {', '.join(available_days)}."
+
+    # Call Gemini API to get the response
+    response = model.generate_content(query)
+    json_match = re.search(r"\{.*\}", response.text, re.DOTALL)
+    if not json_match:
+        raise ValueError("Gemini response did not contain valid JSON.")
+
+    try:
+        return json.loads(json_match.group())
+    except json.JSONDecodeError as e:
+        print("Raw Gemini response:\n", response.text)
+        raise ValueError("Extracted Gemini JSON is invalid.")
