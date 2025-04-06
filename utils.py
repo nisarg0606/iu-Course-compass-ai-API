@@ -50,6 +50,8 @@ def get_gemini_response(user_query):
         "You must only recommend courses from the provided list and explain your reasoning.\n\n"
         "Here is the course catalog:\n\n" + COURSE_CONTEXT +
         "Do not give me any text in bold and also do not use any markdown formatting. Do not give any additional information or context outside of the course catalog provided."
+        "if you ever need to mention the professor data in the output. only mention the professor's name and do not mention id, rating, department, email or avgRating."
+        "if there are less seats in the course automatically recommend the next best similar course available in the catalog saying that since the seats are limited in the course you asked for, I am recommending the next best similar course available. "
         "Only respond with the course recommendations and explanations based on the user's query and give me the reponse strictly in html format only. Do not add any ticks (`) or code blocks (```), and do not use any markdown formatting."
         """
         "<html>\n"
@@ -58,8 +60,6 @@ def get_gemini_response(user_query):
         "</body>\n"
         "</html>\n"
         """
-        "if you ever need to mention the professor data in the output. only mention the professor's name and do not mention id, rating, department, email or avgRating."
-        "if there are less seats in the course automatically recommend the next best similar course available in the catalog saying that since the seats are limited in the course you asked for, I am recommending the next best similar course available. "
     )
 
     if not chat_history:
