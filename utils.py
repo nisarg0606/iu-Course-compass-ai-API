@@ -6,6 +6,7 @@ import google.generativeai as genai
 from dotenv import load_dotenv
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
+from fastapi import HTTPException
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
@@ -188,51 +189,129 @@ def get_collection(collection_name):
     """
     return mongo_db[collection_name]
 
+def sanitize_course_data(courses):
+    for course in courses:
+        course["credits"] = int(course["credits"])
+        course["year"] = int(course["year"])
+        for k in ["overall", "difficulty", "workload", "organization"]:
+            course["ocq"][k] = float(course["ocq"][k])
+        for comment in course["ocq"]["comments"]:
+            comment["rating"] = int(comment["rating"])
+        for k in ["A", "B", "C", "D", "F", "Withdraw"]:
+            course["gradeDistribution"][k] = int(course["gradeDistribution"][k])
+    return courses
+
 # I want a function to recommend a course from the course catalog based on a user's career goal and subject which will be mandatorily provided by the user and optional parameters enrolment type and available days through the gemini api
 def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str = None, available_days: list = None):
     model = genai.GenerativeModel("gemini-2.0-flash")
 
-    system_prompt = (
-    """
-    Recommend a course based on the user's career goal and subject.
+    system_prompt = """
+    You are an academic course recommendation AI for Indiana University.
 
-    Args:
-        career_goal (str): The user's career goal.
-        subject (str): The subject of interest.
-        enrollment_type (str, optional): Preferred enrollment type (e.g., "online", "in-person").
-        available_days (list, optional): Preferred days of the week for classes.
+    Recommend multiple courses based on the user's career goal and subject of interest. For each course, respond in the **exact JSON format** below and wrap multiple course objects in a single JSON array. No explanation or surrounding text.
 
-    Returns:
-        str: Recommended course details or a message if no suitable course is found.
-    give me the response strictly in the below JSON format only:
+    Use this exact structure:
+
+    [
     {
-        "mode": "online" or "in-person" or "hybrid",
-        "term": "Fall" or "Spring" or "Summer",
-        "code": "CS101",
-        "name": "Introduction to Computer Science",
-        "professor": "Dr. Smith",
-        "schedule" : { "days": ["Monday"], "startTime": "09:00", "endTime": "10:30" },
+        "id": "course_id",
+        "name": "Course Name",
+        "code": "DEPT-CODE",
+        "department": "Department Name",
+        "departmentCode": "DEPT",
+        "number": "Course Number",
         "credits": 3,
-        "description": "An introduction to the fundamentals of computer science, including programming, algorithms, and data structures.",
+        "term": "Fall",
+        "year": 2024,
+        "description": "Course description here.",
+        "professor": {
+        "id": "p1",
+        "name": "Dr. Professor Name",
+        "department": "Department Name",
+        "email": "email@university.edu",
+        "avgRating": 4.5
+        },
+        "location": "Building Room",
+        "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "startTime": "10:00",
+        "endTime": "11:15"
+        },
+        "mode": "Online",
+        "availability": {
+        "total": 60,
+        "enrolled": 42
+        },
+        "prerequisites": ["COURSE-101"],
+        "textbooks": ["Textbook Title Here"],
+        "ocq": {
+        "overall": 4.2,
+        "difficulty": 3.0,
+        "workload": 3,
+        "organization": 4,
+        "comments": [
+            {
+            "text": "Comment here.",
+            "date": "2024-10-01",
+            "rating": 4
+            }
+        ]
+        },
+        "gradeDistribution": {
+        "A": 20,
+        "B": 15,
+        "C": 5,
+        "D": 2,
+        "F": 1,
+        "Withdraw": 3
+        }
     }
-    """
-    )
-    query = f"'{system_prompt} 'Recommend two courses for someone whose career goal is '{career_goal}' and is interested in '{subject}'. Give me the response strictly in the JSON format mentioned above even if there are multiple courses recommended. "
-    
-    if enrollment_type:
-        query += f" Prefer {enrollment_type} enrollment."
-    
-    if available_days:
-        query += f" Available on {', '.join(available_days)}."
+    ]
 
-    # Call Gemini API to get the response
-    response = model.generate_content(query)
-    json_match = re.search(r"\{.*\}", response.text, re.DOTALL)
-    if not json_match:
-        raise ValueError("Gemini response did not contain valid JSON.")
+    Return a JSON array of such course objects **only**, no explanation or surrounding text.
+    """
+
+    query = (
+        f"{system_prompt}\n\n"
+        f"Career Goal: {career_goal}\n"
+        f"Subject: {subject}\n"
+    )
+    if enrollment_type:
+        query += f"Enrollment Type: {enrollment_type}\n"
+    if available_days:
+        query += f"Available Days: {', '.join(available_days)}\n"
 
     try:
-        return json.loads(json_match.group())
+        response = model.generate_content(query)
+        raw_text = response.text.strip()
+
+        # Debug log raw Gemini response
+        print("\nRAW GEMINI RESPONSE:\n", raw_text)
+
+        # Extract JSON array
+        json_match = re.search(r"\[.*\]", raw_text, re.DOTALL)
+        if not json_match:
+            raise HTTPException(status_code=500, detail="JSON array not found in Gemini response.")
+
+        raw_json = json_match.group()
+        parsed_data = json.loads(raw_json)
+
+        # Confirm it's a list
+        if not isinstance(parsed_data, list):
+            raise HTTPException(status_code=500, detail="Extracted content is not a list.")
+
+        required_fields = {"id", "name", "code", "schedule", "credits"}
+        for course in parsed_data:
+            if not required_fields.issubset(course.keys()):
+                print("Missing fields in:", course)
+                raise HTTPException(status_code=500, detail="One or more course objects are missing required fields.")
+
+        return parsed_data
+
     except json.JSONDecodeError as e:
-        print("Raw Gemini response:\n", response.text)
-        raise ValueError("Extracted Gemini JSON is invalid.")
+        print("\nJSON decode error:\n", str(e))
+        print("\nRAW JSON THAT FAILED:\n", raw_json if 'raw_json' in locals() else raw_text)
+        raise HTTPException(status_code=500, detail="Extracted Gemini JSON is invalid.")
+    except Exception as e:
+        print("\nException caught:\n", str(e))
+        raise HTTPException(status_code=500, detail=f"Server error: {str(e)}")
