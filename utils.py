@@ -58,6 +58,8 @@ def get_gemini_response(user_query):
         "</body>\n"
         "</html>\n"
         """
+        "if you ever need to mention the professor data in the output. only mention the professor's name and do not mention id, rating, department, email or avgRating."
+        "if there are less seats in the course automatically recommend the next best similar course available in the catalog saying that since the seats are limited in the course you asked for, I am recommending the next best similar course available. "
     )
 
     if not chat_history:
