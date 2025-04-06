@@ -361,3 +361,27 @@ def generate_course_roadmap_image(previous_courses: list[str], career_goal: str)
         return response.content
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to fetch roadmap image: {str(e)}")
+    
+def course_recommendation():
+    """
+        Get 3 CSCI courses with no prerequisites
+        from the course catalog and are of 3 credits.
+    """
+    # Filter courses with no prerequisites
+    filtered_courses = [
+        course for course in courses
+        if course["departmentCode"] == "CSCI" and
+        course["credits"] == 3 and
+        not course.get("prerequisites")
+    ]
+    # Sort by course code
+    filtered_courses.sort(key=lambda x: x["code"])
+    # Limit to 3 courses
+    limited_courses = filtered_courses[:3]
+
+    response = {
+        "courses": limited_courses,
+        "message": "Here are 3 CSCI courses with no prerequisites and are of 3 credits."
+    }
+    # Return the JSON response
+    return response
