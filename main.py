@@ -20,7 +20,6 @@ app.add_middleware(
 # Request body model for chat
 class QueryRequest(BaseModel):
     query: str
-    history: Optional[List[Dict[str, Any]]] = None
 
 # Request body model for sign-in
 class SignInRequest(BaseModel):
@@ -41,7 +40,7 @@ class RecommendationRequest(BaseModel):
 @app.post("/chat")
 async def chat(request: QueryRequest):
     try:
-        reply = get_gemini_response(request.query, request.history)
+        reply = get_gemini_response(request.query)
         return {"response": reply}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -11,6 +11,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 mongo_client = MongoClient(os.getenv("MONGO_URI"))
 mongo_db = mongo_client[os.getenv("MONGO_DB_NAME")]
+chat_history = []
 
 # Load courses.json once
 with open("courses.json", "r") as f:
@@ -39,8 +40,10 @@ def summarize_course(course):
 COURSE_CONTEXT = "\n---\n".join(summarize_course(c) for c in courses)
 
 # Gemini response function
-def get_gemini_response(user_query, chat_history=None):
+def get_gemini_response(user_query):
     model = genai.GenerativeModel("gemini-2.0-flash")
+
+    global chat_history
 
     system_prompt = (
         "You are a university course advisor AI. Your job is to help students pick suitable courses based on their interests, goals, and the course catalog below. "
@@ -57,18 +60,24 @@ def get_gemini_response(user_query, chat_history=None):
         """
     )
 
-    contents = [{"role": "user", "parts": [system_prompt]}]
+    if not chat_history:
+        chat_history.append({"role": "user", "parts": [system_prompt]})
 
-    if chat_history:
-        contents.extend(chat_history)
+    # Add current query
+    chat_history.append({"role": "user", "parts": [user_query]})
 
-    contents.append({"role": "user", "parts": [user_query]})
+    # Call Gemini with full chat
+    response = model.generate_content(chat_history)
+    reply = response.text
 
-    response = model.generate_content(contents)
-    return response.text
+    # Add model response
+    chat_history.append({"role": "model", "parts": [reply]})
 
+    # Optionally truncate to last 20 entries
+    chat_history = chat_history[-40:]
 
-user_sessions = {}
+    return reply
+
 
 def hash_password(password):
     return generate_password_hash(password)
