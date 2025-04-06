@@ -3,6 +3,7 @@
 
 # Virtual environment
 /venv
+/hackathon
 
 # Python cache files
 __pycache__/

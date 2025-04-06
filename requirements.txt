@@ -3,3 +3,4 @@ python-dotenv
 flask
 fastapi[standard]
 uvicorn
+pymongo

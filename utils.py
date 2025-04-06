@@ -3,9 +3,13 @@ import json
 import os
 import google.generativeai as genai
 from dotenv import load_dotenv
+from pymongo import MongoClient
+from werkzeug.security import generate_password_hash, check_password_hash
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+mongo_client = MongoClient(os.getenv("MONGO_URI"))
+mongo_db = mongo_client[os.getenv("MONGO_DB_NAME")]
 
 # Load courses.json once
 with open("courses.json", "r") as f:
@@ -65,6 +69,31 @@ def get_gemini_response(user_query, chat_history=None):
 
 user_sessions = {}
 
+def hash_password(password):
+    return generate_password_hash(password)
+
+def user_signup(username, password):
+    """
+    Sign up a new user by storing their credentials in the database.
+
+    Args:
+        username (str): The username of the user.
+        password (str): The password of the user.
+
+    Returns:
+        str: A success message if signup is successful, or an error message if the username is already taken.
+    """
+    users_collection = get_collection("users")
+
+    # Check if the username already exists
+    if users_collection.find_one({"username": username}):
+        return "Error: Username already exists."
+
+    # Hash the password and store the user in the database
+    hashed_password = generate_password_hash(password)
+    users_collection.insert_one({"username": username, "password": hashed_password})
+    return f"User '{username}' signed up successfully."
+
 def user_sign_in(username, password):
     """
     Sign in a user by creating a session.
@@ -76,9 +105,31 @@ def user_sign_in(username, password):
     Returns:
         str: A success message indicating the user has signed in.
     """
+    # check the user in db and if exists then create a session
+    users_collection = get_collection("users")
+    user_sessions_collection = get_collection("user_sessions")
+
+    # Check if the user is already logged in
+    if user_sessions_collection.find_one({"username": username}):
+        return "Error: User already logged in."
+
+    # Check if the user exists in the database
+    user = users_collection.find_one({"username": username})
+    if not user:
+        return "Error: User does not exist."
+
+    # Validate the password
+    if not check_password_hash(user["password"], password):
+        return "Error: Invalid password."
+
     # Create a session for the user
-    user_sessions[username] = True
-    return f"User '{username}' signed in successfully."
+    user_sessions_collection.update_one(
+        {"username": username},
+        {"$set": {"username": username, "signed_in": True}},
+        upsert=True
+    )
+    return f"User '{username}' logged in successfully."
+    
 
 def user_sign_out(username):
     """
@@ -90,9 +141,37 @@ def user_sign_out(username):
     Returns:
         str: A success message if sign-out is successful, or an error message if the user is not signed in.
     """
-    if username in user_sessions:
-        # Remove the user's session
-        del user_sessions[username]
-        return f"User '{username}' signed out successfully."
+    user_sessions_collection = get_collection("user_sessions")
+
+    # Check if the user is logged in
+    result = user_sessions_collection.delete_one({"username": username})
+    if result.deleted_count > 0:
+        return f"User '{username}' logged out successfully."
     else:
-        return "Error: User is not signed in."
+        return "Error: User is not logged in."
+    
+    
+def is_user_logged_in(username):
+    """
+    Check if a user is currently logged in.
+
+    Args:
+        username (str): The username of the user.
+
+    Returns:
+        bool: True if the user is logged in, False otherwise.
+    """
+    user_sessions_collection = get_collection("user_sessions")
+    return user_sessions_collection.find_one({"username": username})
+    
+def get_collection(collection_name):
+    """
+    Get a MongoDB collection.
+
+    Args:
+        collection_name (str): The name of the collection to retrieve.
+
+    Returns:
+        pymongo.collection.Collection: The requested collection.
+    """
+    return mongo_db[collection_name]
