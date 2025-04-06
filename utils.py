@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from pymongo import MongoClient
 from werkzeug.security import generate_password_hash, check_password_hash
 from fastapi import HTTPException
+import requests
 
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
@@ -315,3 +316,48 @@ def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str
     except Exception as e:
         # print("\nException caught:\n", str(e))
         raise HTTPException(status_code=500, detail=f"Server error: {str(e)}")
+    
+
+ROADMAP_SH_SLUGS = {
+    "frontend developer": "frontend",
+    "backend developer": "backend",
+    "full stack developer": "full-stack",
+    "ai engineer": "ai-engineer",
+    "devops engineer": "devops",
+    "blockchain developer": "blockchain",
+    "cybersecurity expert": "cyber-security",
+    "react developer": "react",
+    "node.js developer": "nodejs",
+    "android developer": "android",
+}
+
+def generate_course_roadmap_image(previous_courses: list[str], career_goal: str) -> bytes:
+    """
+    Fetch a roadmap image from roadmap.sh based on the mapped career goal.
+
+    Args:
+        previous_courses (list[str]): (Unused, retained for API consistency)
+        career_goal (str): User input like "Machine Learning Engineer"
+
+    Returns:
+        bytes: Image binary content from roadmap.sh
+    """
+    # Normalize and map the goal
+    goal_key = career_goal.strip().lower()
+    slug = ROADMAP_SH_SLUGS.get(goal_key)
+
+    if not slug:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No roadmap available for career goal: '{career_goal}'. Try one of: {', '.join(ROADMAP_SH_SLUGS.keys())}"
+        )
+
+    image_url = f"https://roadmap.sh/roadmaps/{slug}.png"
+
+    try:
+        response = requests.get(image_url)
+        if response.status_code != 200:
+            raise HTTPException(status_code=404, detail=f"Roadmap not found at: {image_url}")
+        return response.content
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to fetch roadmap image: {str(e)}")
