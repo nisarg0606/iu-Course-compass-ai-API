@@ -107,11 +107,11 @@ def user_sign_in(username, password):
     """
     # check the user in db and if exists then create a session
     users_collection = get_collection("users")
-    user_sessions_collection = get_collection("user_sessions")
+    # user_sessions_collection = get_collection("user_sessions")
 
     # Check if the user is already logged in
-    if user_sessions_collection.find_one({"username": username}):
-        return "Error: User already logged in."
+    # if user_sessions_collection.find_one({"username": username}):
+    #     return "Error: User already logged in."
 
     # Check if the user exists in the database
     user = users_collection.find_one({"username": username})
@@ -123,11 +123,11 @@ def user_sign_in(username, password):
         return "Error: Invalid password."
 
     # Create a session for the user
-    user_sessions_collection.update_one(
-        {"username": username},
-        {"$set": {"username": username, "signed_in": True}},
-        upsert=True
-    )
+    # user_sessions_collection.update_one(
+    #     {"username": username},
+    #     {"$set": {"username": username, "signed_in": True}},
+    #     upsert=True
+    # )
     return f"User '{username}' logged in successfully."
     
 
