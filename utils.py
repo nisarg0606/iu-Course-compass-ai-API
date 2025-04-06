@@ -321,16 +321,14 @@ def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str
 ROADMAP_SH_SLUGS = {
     "frontend developer": "frontend",
     "backend developer": "backend",
-    "Software Engineer": "full-stack",
-    "AI Engineer": "ai-engineer",
+    "full stack developer": "full-stack",
+    "ai engineer": "ai-engineer",
     "devops engineer": "devops",
     "blockchain developer": "blockchain",
     "cybersecurity expert": "cyber-security",
     "react developer": "react",
     "node.js developer": "nodejs",
     "android developer": "android",
-    "Data Scientist": "ai-data-scientist",
-    "UX Designer": "ux-design",
 }
 
 def generate_course_roadmap_image(previous_courses: list[str], career_goal: str) -> bytes:
