@@ -286,7 +286,7 @@ def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str
         raw_text = response.text.strip()
 
         # Debug log raw Gemini response
-        print("\nRAW GEMINI RESPONSE:\n", raw_text)
+        # print("\nRAW GEMINI RESPONSE:\n", raw_text)
 
         # Extract JSON array
         json_match = re.search(r"\[.*\]", raw_text, re.DOTALL)
@@ -303,15 +303,15 @@ def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str
         required_fields = {"id", "name", "code", "schedule", "credits"}
         for course in parsed_data:
             if not required_fields.issubset(course.keys()):
-                print("Missing fields in:", course)
+                # print("Missing fields in:", course)
                 raise HTTPException(status_code=500, detail="One or more course objects are missing required fields.")
 
         return parsed_data
 
     except json.JSONDecodeError as e:
-        print("\nJSON decode error:\n", str(e))
-        print("\nRAW JSON THAT FAILED:\n", raw_json if 'raw_json' in locals() else raw_text)
+        # print("\nJSON decode error:\n", str(e))
+        # print("\nRAW JSON THAT FAILED:\n", raw_json if 'raw_json' in locals() else raw_text)
         raise HTTPException(status_code=500, detail="Extracted Gemini JSON is invalid.")
     except Exception as e:
-        print("\nException caught:\n", str(e))
+        # print("\nException caught:\n", str(e))
         raise HTTPException(status_code=500, detail=f"Server error: {str(e)}")
