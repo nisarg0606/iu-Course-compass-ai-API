@@ -321,37 +321,33 @@ def gemini_recommend_course(career_goal: str, subject: str, enrollment_type: str
 ROADMAP_SH_SLUGS = {
     "frontend developer": "frontend",
     "backend developer": "backend",
-    "full stack developer": "full-stack",
-    "ai engineer": "ai-engineer",
+    "Software Engineer": "full-stack",
+    "AI Engineer": "ai-engineer",
     "devops engineer": "devops",
     "blockchain developer": "blockchain",
     "cybersecurity expert": "cyber-security",
     "react developer": "react",
     "node.js developer": "nodejs",
     "android developer": "android",
+    "Data Scientist": "ai-data-scientist",
+    "UX Designer": "ux-design",
 }
 
-def generate_course_roadmap_image(previous_courses: list[str], career_goal: str) -> bytes:
+def generate_course_roadmap_image(career_goal: str) -> bytes:
     """
-    Fetch a roadmap image from roadmap.sh based on the mapped career goal.
-
-    Args:
-        previous_courses (list[str]): (Unused, retained for API consistency)
-        career_goal (str): User input like "Machine Learning Engineer"
-
-    Returns:
-        bytes: Image binary content from roadmap.sh
+    Fetch a roadmap image from roadmap.sh based on user-friendly career goal input.
     """
-    # Normalize and map the goal
-    goal_key = career_goal.strip().lower()
-    slug = ROADMAP_SH_SLUGS.get(goal_key)
 
-    if not slug:
+    # Try to match user input against keys in a case-insensitive way
+    match_key = next((k for k in ROADMAP_SH_SLUGS if k.lower() == career_goal.strip().lower()), None)
+
+    if not match_key:
         raise HTTPException(
             status_code=404,
             detail=f"No roadmap available for career goal: '{career_goal}'. Try one of: {', '.join(ROADMAP_SH_SLUGS.keys())}"
         )
 
+    slug = ROADMAP_SH_SLUGS[match_key]
     image_url = f"https://roadmap.sh/roadmaps/{slug}.png"
 
     try:

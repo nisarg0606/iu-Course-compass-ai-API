@@ -43,7 +43,6 @@ class RecommendationRequest(BaseModel):
     available_days: Optional[List[str]] = None  # Optional field for available days
 
 class RoadmapRequest(BaseModel):
-    previous_courses: List[str]
     career_goal: str
 
 # Chat endpoint
@@ -133,7 +132,6 @@ async def get_recommendations():
 async def generate_roadmap(request: RoadmapRequest):
     try:
         image_data = generate_course_roadmap_image(
-            previous_courses=request.previous_courses,
             career_goal=request.career_goal
         )
         return StreamingResponse(BytesIO(image_data), media_type="image/png")
