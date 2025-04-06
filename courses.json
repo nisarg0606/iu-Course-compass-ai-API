@@ -696,7 +696,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Drake J",
+            "professor": {
+                "id": "p33",
+                "name": "Dr. Drake J",
+                "department": "Hutton Honors College",
+                "email": "dj@indiana.edu",
+                "avgRating": 3.5
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -741,7 +747,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Drake J",
+            "professor": {
+                "id": "p33",
+                "name": "Dr. Drake J",
+                "department": "Hutton Honors College",
+                "email": "dj@indiana.edu",
+                "avgRating": 3.5
+            },
             "location": "PY 111",
             "schedule": {
                 "days": [
@@ -786,7 +798,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Spang R",
+            "professor": {
+                "id": "p80",
+                "name": "Dr. Spang R",
+                "department": "Hutton Honors College",
+                "email": "sr@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -831,7 +849,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Stecher G",
+            "professor": {
+                "id": "p82",
+                "name": "Dr. Stecher G",
+                "department": "Hutton Honors College",
+                "email": "sg@indiana.edu",
+                "avgRating": 3.3
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -876,7 +900,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Stecher G",
+            "professor": {
+                "id": "p82",
+                "name": "Dr. Stecher G",
+                "department": "Hutton Honors College",
+                "email": "sg@indiana.edu",
+                "avgRating": 3.3
+            },
             "location": "HU 111",
             "schedule": {
                 "days": [
@@ -921,7 +951,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Emery J",
+            "professor": {
+                "id": "p35",
+                "name": "Dr. Emery J",
+                "department": "Hutton Honors College",
+                "email": "ej@indiana.edu",
+                "avgRating": 3.8
+            },
             "location": "HU 111",
             "schedule": {
                 "days": [
@@ -966,7 +1002,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Emery J",
+            "professor": {
+                "id": "p35",
+                "name": "Dr. Emery J",
+                "department": "Hutton Honors College",
+                "email": "ej@indiana.edu",
+                "avgRating": 3.8
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -1011,7 +1053,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Baildon M",
+            "professor": {
+                "id": "p7",
+                "name": "Dr. Baildon M",
+                "department": "Hutton Honors College",
+                "email": "bm@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "HU 111",
             "schedule": {
                 "days": [
@@ -1056,7 +1104,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Baildon M",
+            "professor": {
+                "id": "p7",
+                "name": "Dr. Baildon M",
+                "department": "Hutton Honors College",
+                "email": "bm@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "HU 111",
             "schedule": {
                 "days": [
@@ -1101,7 +1155,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Baildon M",
+            "professor": {
+                "id": "p7",
+                "name": "Dr. Baildon M",
+                "department": "Hutton Honors College",
+                "email": "bm@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -1146,7 +1206,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Frohardt-Lane S",
+            "professor": {
+                "id": "p37",
+                "name": "Dr. Frohardt-Lane S",
+                "department": "Hutton Honors College",
+                "email": "fs@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -1191,7 +1257,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Frohardt-Lane S",
+            "professor": {
+                "id": "p37",
+                "name": "Dr. Frohardt-Lane S",
+                "department": "Hutton Honors College",
+                "email": "fs@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "HU 217",
             "schedule": {
                 "days": [
@@ -1236,7 +1308,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Frohardt-Lane S",
+            "professor": {
+                "id": "p37",
+                "name": "Dr. Frohardt-Lane S",
+                "department": "Hutton Honors College",
+                "email": "fs@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "BH 142",
             "schedule": {
                 "days": [
@@ -1281,7 +1359,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Frohardt-Lane S",
+            "professor": {
+                "id": "p37",
+                "name": "Dr. Frohardt-Lane S",
+                "department": "Hutton Honors College",
+                "email": "fs@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "BH 238",
             "schedule": {
                 "days": [
@@ -1326,7 +1410,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Above class required of all new Hutton students pursuing the HHN as of Fall 2024. May be taken by other Hutton students.",
-            "professor": "Frohardt-Lane S",
+            "professor": {
+                "id": "p37",
+                "name": "Dr. Frohardt-Lane S",
+                "department": "Hutton Honors College",
+                "email": "fs@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "BH 142",
             "schedule": {
                 "days": [
@@ -1371,7 +1461,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Group through despite cause cause believe son. Work special total financial role together range.",
-            "professor": "Vincent Tucker",
+            "professor": {
+                "id": "p87",
+                "name": "Dr. Vincent Tucker",
+                "department": "Psychology",
+                "email": "vtucker@indiana.edu",
+                "avgRating": 4.7
+            },
             "location": "HU 361",
             "schedule": {
                 "days": [
@@ -1434,7 +1530,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "White owner onto knowledge other. First drug contain start almost wonder. Live bed serious theory type.",
-            "professor": "Michelle Kelley",
+            "professor": {
+                "id": "p63",
+                "name": "Dr. Michelle Kelley",
+                "department": "History",
+                "email": "mkelley@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "SW 261",
             "schedule": {
                 "days": [
@@ -1493,7 +1595,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Forward staff beyond chair. And off travel move quite. Buy country store.",
-            "professor": "Devin Thornton",
+            "professor": {
+                "id": "p30",
+                "name": "Dr. Devin Thornton",
+                "department": "Economics",
+                "email": "dthornton@indiana.edu",
+                "avgRating": 3.8
+            },
             "location": "GY 390",
             "schedule": {
                 "days": [
@@ -1547,7 +1655,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Structure attorney author feeling. Congress mean always beyond write current. Toward like total now recently data. Small citizen class morning.",
-            "professor": "Michael Stephens",
+            "professor": {
+                "id": "p61",
+                "name": "Dr. Michael Stephens",
+                "department": "Mathematics",
+                "email": "mstephens@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "SE 394",
             "schedule": {
                 "days": [
@@ -1601,7 +1715,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Care several loss particular pull. Water plant perform resource hold increase practice ability. Recognize civil development large report.",
-            "professor": "Bob Stevenson",
+            "professor": {
+                "id": "p8",
+                "name": "Dr. Bob Stevenson",
+                "department": "Political Science",
+                "email": "bstevenson@indiana.edu",
+                "avgRating": 4.3
+            },
             "location": "HU 330",
             "schedule": {
                 "days": [
@@ -1655,7 +1775,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Speak themselves speech. Nature white without study candidate. I question first.",
-            "professor": "Kathleen Collins",
+            "professor": {
+                "id": "p52",
+                "name": "Dr. Kathleen Collins",
+                "department": "Political Science",
+                "email": "kcollins@indiana.edu",
+                "avgRating": 3.3
+            },
             "location": "PY 113",
             "schedule": {
                 "days": [
@@ -1708,7 +1834,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Card minute practice get the. Surface amount day employee fire.",
-            "professor": "Donald Chavez",
+            "professor": {
+                "id": "p31",
+                "name": "Dr. Donald Chavez",
+                "department": "Mathematics",
+                "email": "dchavez@indiana.edu",
+                "avgRating": 4.7
+            },
             "location": "HU 279",
             "schedule": {
                 "days": [
@@ -1772,7 +1904,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Increase between training listen subject. Buy break marriage also friend reach. Turn phone heart window.",
-            "professor": "Monica Turner",
+            "professor": {
+                "id": "p65",
+                "name": "Dr. Monica Turner",
+                "department": "Mathematics",
+                "email": "mturner@indiana.edu",
+                "avgRating": 3.5
+            },
             "location": "BH 106",
             "schedule": {
                 "days": [
@@ -1825,7 +1963,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "One coach court boy state. Total later quality.",
-            "professor": "Claudia Miller",
+            "professor": {
+                "id": "p20",
+                "name": "Dr. Claudia Miller",
+                "department": "Psychology",
+                "email": "cmiller@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "PY 100",
             "schedule": {
                 "days": [
@@ -1889,7 +2033,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Family relationship like son might trip at candidate. Address such former claim chance. Why measure too maybe off question source.",
-            "professor": "David Mueller",
+            "professor": {
+                "id": "p26",
+                "name": "Dr. David Mueller",
+                "department": "Philosophy",
+                "email": "dmueller@indiana.edu",
+                "avgRating": 4.3
+            },
             "location": "LH 119",
             "schedule": {
                 "days": [
@@ -1942,7 +2092,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "His himself clearly very dream role. Area along individual man tell response.",
-            "professor": "Johnny Green",
+            "professor": {
+                "id": "p49",
+                "name": "Dr. Johnny Green",
+                "department": "Mathematics",
+                "email": "jgreen@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "GY 254",
             "schedule": {
                 "days": [
@@ -1996,7 +2152,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Red pass value practice wide require fast support. Son true their race special million.",
-            "professor": "Ricardo Henry",
+            "professor": {
+                "id": "p71",
+                "name": "Dr. Ricardo Henry",
+                "department": "Computer Science",
+                "email": "rhenry@indiana.edu",
+                "avgRating": 3.8
+            },
             "location": "HU 385",
             "schedule": {
                 "days": [
@@ -2055,7 +2217,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Indeed between similar safe. Social issue indicate.",
-            "professor": "Steven Henderson",
+            "professor": {
+                "id": "p83",
+                "name": "Dr. Steven Henderson",
+                "department": "Economics",
+                "email": "shenderson@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "LH 238",
             "schedule": {
                 "days": [
@@ -2118,7 +2286,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Friend which fast there network force. Year bill ok choose today watch source firm.",
-            "professor": "Deanna Johnson",
+            "professor": {
+                "id": "p28",
+                "name": "Dr. Deanna Johnson",
+                "department": "Philosophy",
+                "email": "djohnson@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "PY 345",
             "schedule": {
                 "days": [
@@ -2172,7 +2346,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Impact individual rock fly daughter fall. Before control board born painting child reflect.",
-            "professor": "Jacob Rush",
+            "professor": {
+                "id": "p42",
+                "name": "Dr. Jacob Rush",
+                "department": "Psychology",
+                "email": "jrush@indiana.edu",
+                "avgRating": 3.7
+            },
             "location": "HU 329",
             "schedule": {
                 "days": [
@@ -2235,7 +2415,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Three report know second government the pull. Other along society figure future. Teacher three seven attention team executive care.",
-            "professor": "Michael Smith",
+            "professor": {
+                "id": "p60",
+                "name": "Dr. Michael Smith",
+                "department": "Computer Science",
+                "email": "msmith@indiana.edu",
+                "avgRating": 3.3
+            },
             "location": "BH 153",
             "schedule": {
                 "days": [
@@ -2298,7 +2484,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Rather score protect according. Break about establish.",
-            "professor": "Willie Mathis",
+            "professor": {
+                "id": "p88",
+                "name": "Dr. Willie Mathis",
+                "department": "Economics",
+                "email": "wmathis@indiana.edu",
+                "avgRating": 4.0
+            },
             "location": "SE 264",
             "schedule": {
                 "days": [
@@ -2351,7 +2543,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Southern hope detail cultural vote only. Town almost plan. Hair sea quality do.",
-            "professor": "Cody Bailey",
+            "professor": {
+                "id": "p21",
+                "name": "Dr. Cody Bailey",
+                "department": "Economics",
+                "email": "cbailey@indiana.edu",
+                "avgRating": 4.4
+            },
             "location": "EP 290",
             "schedule": {
                 "days": [
@@ -2410,7 +2608,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "However TV law fund bill third some follow. Throw eight miss couple bag thank generation.",
-            "professor": "Brenda Buchanan",
+            "professor": {
+                "id": "p10",
+                "name": "Dr. Brenda Buchanan",
+                "department": "Chemistry",
+                "email": "bbuchanan@indiana.edu",
+                "avgRating": 4.7
+            },
             "location": "HU 270",
             "schedule": {
                 "days": [
@@ -2463,7 +2667,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "This degree partner stand next though. Always Congress majority campaign that various.",
-            "professor": "Bradley Allen",
+            "professor": {
+                "id": "p9",
+                "name": "Dr. Bradley Allen",
+                "department": "Economics",
+                "email": "ballen@indiana.edu",
+                "avgRating": 3.7
+            },
             "location": "EP 297",
             "schedule": {
                 "days": [
@@ -2521,7 +2731,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Wife north director respond. Produce develop story drive million push do.",
-            "professor": "Shannon Martinez",
+            "professor": {
+                "id": "p77",
+                "name": "Dr. Shannon Martinez",
+                "department": "Political Science",
+                "email": "smartinez@indiana.edu",
+                "avgRating": 3.8
+            },
             "location": "SW 250",
             "schedule": {
                 "days": [
@@ -2575,7 +2791,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Government opportunity pick too blue street. Other majority final when new clear these.",
-            "professor": "Cynthia Anderson",
+            "professor": {
+                "id": "p22",
+                "name": "Dr. Cynthia Anderson",
+                "department": "Mathematics",
+                "email": "canderson@indiana.edu",
+                "avgRating": 4.1
+            },
             "location": "SW 359",
             "schedule": {
                 "days": [
@@ -2633,7 +2855,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Drop actually watch. At artist will institution throughout describe.",
-            "professor": "Heather Henry",
+            "professor": {
+                "id": "p41",
+                "name": "Dr. Heather Henry",
+                "department": "Economics",
+                "email": "hhenry@indiana.edu",
+                "avgRating": 3.3
+            },
             "location": "SE 454",
             "schedule": {
                 "days": [
@@ -2687,7 +2915,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "About catch than method. Bag down stock computer. What to sea.",
-            "professor": "Krystal Martinez",
+            "professor": {
+                "id": "p53",
+                "name": "Dr. Krystal Martinez",
+                "department": "Physics",
+                "email": "kmartinez@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "PY 344",
             "schedule": {
                 "days": [
@@ -2751,7 +2985,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Return identify many again science alone. Reflect upon yet seven several might history strong. Decade not forget why under.",
-            "professor": "Deborah Mcdaniel",
+            "professor": {
+                "id": "p29",
+                "name": "Dr. Deborah Mcdaniel",
+                "department": "Biology",
+                "email": "dmcdaniel@indiana.edu",
+                "avgRating": 4.7
+            },
             "location": "GY 221",
             "schedule": {
                 "days": [
@@ -2814,7 +3054,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Wear community college probably church. Walk place myself his. Entire expect investment yard responsibility watch.",
-            "professor": "Chelsea Dunn",
+            "professor": {
+                "id": "p17",
+                "name": "Dr. Chelsea Dunn",
+                "department": "History",
+                "email": "cdunn@indiana.edu",
+                "avgRating": 5.0
+            },
             "location": "SW 104",
             "schedule": {
                 "days": [
@@ -2878,7 +3124,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Clearly type up play wait. Join serious green foreign film.",
-            "professor": "Sharon Jacobson",
+            "professor": {
+                "id": "p78",
+                "name": "Dr. Sharon Jacobson",
+                "department": "History",
+                "email": "sjacobson@indiana.edu",
+                "avgRating": 3.4
+            },
             "location": "EP 423",
             "schedule": {
                 "days": [
@@ -2937,7 +3189,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Fire subject west. Fire town worker. Image central challenge term memory.",
-            "professor": "Mitchell Powers",
+            "professor": {
+                "id": "p64",
+                "name": "Dr. Mitchell Powers",
+                "department": "History",
+                "email": "mpowers@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "LH 161",
             "schedule": {
                 "days": [
@@ -2991,7 +3249,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Nice spend cut end. Site military lead travel series.",
-            "professor": "Christopher Mcbride",
+            "professor": {
+                "id": "p19",
+                "name": "Dr. Christopher Mcbride",
+                "department": "Mathematics",
+                "email": "cmcbride@indiana.edu",
+                "avgRating": 3.5
+            },
             "location": "BH 134",
             "schedule": {
                 "days": [
@@ -3050,7 +3314,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Good later street mention would technology budget first. Consumer by full. Cover including artist find hope appear should represent.",
-            "professor": "Robert Miller",
+            "professor": {
+                "id": "p73",
+                "name": "Dr. Robert Miller",
+                "department": "Psychology",
+                "email": "rmiller@indiana.edu",
+                "avgRating": 4.4
+            },
             "location": "BH 386",
             "schedule": {
                 "days": [
@@ -3103,7 +3373,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Identify real to follow.",
-            "professor": "Brent Johnson",
+            "professor": {
+                "id": "p11",
+                "name": "Dr. Brent Johnson",
+                "department": "Philosophy",
+                "email": "bjohnson@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "PY 451",
             "schedule": {
                 "days": [
@@ -3167,7 +3443,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Forget whom goal clear inside. Theory case north add us accept.",
-            "professor": "Dr. Michael Williams",
+            "professor": {
+                "id": "p32",
+                "name": "Dr. Michael Williams",
+                "department": "Psychology",
+                "email": "dwilliams@indiana.edu",
+                "avgRating": 4.1
+            },
             "location": "SW 175",
             "schedule": {
                 "days": [
@@ -3226,7 +3508,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Authority imagine probably whom it job. High trouble drive loss turn attorney education. Those head against particularly listen.",
-            "professor": "Chad Dixon",
+            "professor": {
+                "id": "p15",
+                "name": "Dr. Chad Dixon",
+                "department": "Economics",
+                "email": "cdixon@indiana.edu",
+                "avgRating": 3.5
+            },
             "location": "BH 219",
             "schedule": {
                 "days": [
@@ -3290,7 +3578,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Theory election rich foot herself.",
-            "professor": "Pamela Mccoy",
+            "professor": {
+                "id": "p68",
+                "name": "Dr. Pamela Mccoy",
+                "department": "Computer Science",
+                "email": "pmccoy@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "BH 279",
             "schedule": {
                 "days": [
@@ -3344,7 +3638,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Nation network college debate direction moment. Ground think save respond friend budget while.",
-            "professor": "Martin Mann",
+            "professor": {
+                "id": "p56",
+                "name": "Dr. Martin Mann",
+                "department": "Chemistry",
+                "email": "mmann@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "LH 197",
             "schedule": {
                 "days": [
@@ -3403,7 +3703,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Recent positive daughter popular. Book read pass heart soldier action throughout. Five put hard recent project speech director.",
-            "professor": "Madison Pollard",
+            "professor": {
+                "id": "p54",
+                "name": "Dr. Madison Pollard",
+                "department": "Philosophy",
+                "email": "mpollard@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "EP 124",
             "schedule": {
                 "days": [
@@ -3461,7 +3767,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Lose big strategy. Nearly hour enter discover hair few participant. Lead while long not.",
-            "professor": "Felicia Hunter",
+            "professor": {
+                "id": "p36",
+                "name": "Dr. Felicia Hunter",
+                "department": "Biology",
+                "email": "fhunter@indiana.edu",
+                "avgRating": 3.7
+            },
             "location": "SE 263",
             "schedule": {
                 "days": [
@@ -3515,7 +3827,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Nice themselves gas best above dinner stuff. Ever across great western unit.",
-            "professor": "Nicole Henry",
+            "professor": {
+                "id": "p67",
+                "name": "Dr. Nicole Henry",
+                "department": "Biology",
+                "email": "nhenry@indiana.edu",
+                "avgRating": 4.4
+            },
             "location": "LH 479",
             "schedule": {
                 "days": [
@@ -3579,7 +3897,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Material body himself home message woman. Stock determine human find discussion military ability.",
-            "professor": "Christian Cantu",
+            "professor": {
+                "id": "p18",
+                "name": "Dr. Christian Cantu",
+                "department": "Economics",
+                "email": "ccantu@indiana.edu",
+                "avgRating": 3.9
+            },
             "location": "HU 398",
             "schedule": {
                 "days": [
@@ -3633,7 +3957,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Start paper tree bank. Culture ability to suffer at computer doctor.",
-            "professor": "Aimee Nichols",
+            "professor": {
+                "id": "p1",
+                "name": "Dr. Aimee Nichols",
+                "department": "Psychology",
+                "email": "anichols@indiana.edu",
+                "avgRating": 4.1
+            },
             "location": "BH 422",
             "schedule": {
                 "days": [
@@ -3697,7 +4027,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "North friend state do. Go simple improve language thousand. If share land involve education little direction.",
-            "professor": "Gerald Butler",
+            "professor": {
+                "id": "p40",
+                "name": "Dr. Gerald Butler",
+                "department": "Economics",
+                "email": "gbutler@indiana.edu",
+                "avgRating": 3.2
+            },
             "location": "LH 206",
             "schedule": {
                 "days": [
@@ -3760,7 +4096,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Old charge read management production up our allow. Toward such new cultural analysis care kitchen. Difference range technology serious international position write those.",
-            "professor": "Garrett Stone",
+            "professor": {
+                "id": "p39",
+                "name": "Dr. Garrett Stone",
+                "department": "Biology",
+                "email": "gstone@indiana.edu",
+                "avgRating": 3.9
+            },
             "location": "PY 131",
             "schedule": {
                 "days": [
@@ -3819,7 +4161,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Final name at painting room sell daughter. Serious fine seat should dream whose agreement tell. Happen letter body language there wonder him.",
-            "professor": "Tonya Barnett",
+            "professor": {
+                "id": "p85",
+                "name": "Dr. Tonya Barnett",
+                "department": "Psychology",
+                "email": "tbarnett@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "BH 418",
             "schedule": {
                 "days": [
@@ -3883,7 +4231,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Case yet between night western serious. Now minute technology only magazine.",
-            "professor": "Jon Johnson",
+            "professor": {
+                "id": "p50",
+                "name": "Dr. Jon Johnson",
+                "department": "Political Science",
+                "email": "jjohnson@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "HU 274",
             "schedule": {
                 "days": [
@@ -3942,7 +4296,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Be add sound. Republican without mention get. Become me story but order leg food.",
-            "professor": "Matthew Murphy",
+            "professor": {
+                "id": "p58",
+                "name": "Dr. Matthew Murphy",
+                "department": "Computer Science",
+                "email": "mmurphy@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "HU 451",
             "schedule": {
                 "days": [
@@ -4006,7 +4366,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "College anything relationship local air ball. Station tough whether address. Moment buy east example identify likely.",
-            "professor": "Stacy Erickson",
+            "professor": {
+                "id": "p81",
+                "name": "Dr. Stacy Erickson",
+                "department": "Political Science",
+                "email": "serickson@indiana.edu",
+                "avgRating": 4.8
+            },
             "location": "SE 183",
             "schedule": {
                 "days": [
@@ -4060,7 +4426,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Serve can street race seat. Would federal test some score reveal so.",
-            "professor": "Robert Butler",
+            "professor": {
+                "id": "p72",
+                "name": "Dr. Robert Butler",
+                "department": "Philosophy",
+                "email": "rbutler@indiana.edu",
+                "avgRating": 3.4
+            },
             "location": "HU 482",
             "schedule": {
                 "days": [
@@ -4124,7 +4496,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Phone meeting add challenge project happen white maybe. Card look safe street current.",
-            "professor": "Jerry Strickland",
+            "professor": {
+                "id": "p45",
+                "name": "Dr. Jerry Strickland",
+                "department": "Chemistry",
+                "email": "jstrickland@indiana.edu",
+                "avgRating": 3.5
+            },
             "location": "SE 275",
             "schedule": {
                 "days": [
@@ -4178,7 +4556,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Space military tonight sing. Structure positive true else feeling trade money. Why learn attention cut billion.",
-            "professor": "Daniel Robertson",
+            "professor": {
+                "id": "p24",
+                "name": "Dr. Daniel Robertson",
+                "department": "Computer Science",
+                "email": "drobertson@indiana.edu",
+                "avgRating": 3.7
+            },
             "location": "GY 392",
             "schedule": {
                 "days": [
@@ -4242,7 +4626,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Somebody many character option. Only wait technology town approach today. Position possible career.",
-            "professor": "Sheila Cruz",
+            "professor": {
+                "id": "p79",
+                "name": "Dr. Sheila Cruz",
+                "department": "Chemistry",
+                "email": "scruz@indiana.edu",
+                "avgRating": 3.6
+            },
             "location": "SE 412",
             "schedule": {
                 "days": [
@@ -4306,7 +4696,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Class subtitle: The Hero(ine). Above class open to Hutton Honors College students only. Fulfills English composition requirement.",
-            "professor": "Cecil R",
+            "professor": {
+                "id": "p14",
+                "name": "Dr. Cecil R",
+                "department": "Hutton Honors College",
+                "email": "cr@indiana.edu",
+                "avgRating": 3.7
+            },
             "location": "HU 108",
             "schedule": {
                 "days": [
@@ -4352,7 +4748,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Class subtitle: Perspectives on Liberty and Equality. Completion of the English composition requirement.",
-            "professor": "Furniss N",
+            "professor": {
+                "id": "p38",
+                "name": "Dr. Furniss N",
+                "department": "Hutton Honors College",
+                "email": "fn@indiana.edu",
+                "avgRating": 3.2
+            },
             "location": "HU 111",
             "schedule": {
                 "days": [
@@ -4398,7 +4800,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Rather beyond share energy size. Meeting movie avoid American address simply. Thousand impact six loss.",
-            "professor": "Sara Francis",
+            "professor": {
+                "id": "p75",
+                "name": "Dr. Sara Francis",
+                "department": "Computer Science",
+                "email": "sfrancis@indiana.edu",
+                "avgRating": 3.8
+            },
             "location": "HU 169",
             "schedule": {
                 "days": [
@@ -4451,7 +4859,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Sea knowledge my night. Popular open collection become. Explain education idea across player appear similar.",
-            "professor": "Michele Russell",
+            "professor": {
+                "id": "p62",
+                "name": "Dr. Michele Russell",
+                "department": "Information Science",
+                "email": "mrussell@indiana.edu",
+                "avgRating": 3.4
+            },
             "location": "LH 183",
             "schedule": {
                 "days": [
@@ -4505,7 +4919,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Money ball keep since my necessary million. Century hundred themselves finish these. Choose himself north professional.",
-            "professor": "Jerry Fleming",
+            "professor": {
+                "id": "p44",
+                "name": "Dr. Jerry Fleming",
+                "department": "Data Science",
+                "email": "jfleming@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "HU 333",
             "schedule": {
                 "days": [
@@ -4564,7 +4984,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Ability possible door pressure sea thought. Two seven lose probably. Strategy receive rate oil.",
-            "professor": "Catherine Adams",
+            "professor": {
+                "id": "p13",
+                "name": "Dr. Catherine Adams",
+                "department": "Data Science",
+                "email": "cadams@indiana.edu",
+                "avgRating": 3.4
+            },
             "location": "LH 365",
             "schedule": {
                 "days": [
@@ -4618,7 +5044,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Effort drop onto until head. Draw front plan focus century service nearly.",
-            "professor": "David James",
+            "professor": {
+                "id": "p25",
+                "name": "Dr. David James",
+                "department": "Information Science",
+                "email": "djames@indiana.edu",
+                "avgRating": 3.4
+            },
             "location": "GY 430",
             "schedule": {
                 "days": [
@@ -4681,7 +5113,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Throughout free civil entire.",
-            "professor": "Melissa Terry",
+            "professor": {
+                "id": "p59",
+                "name": "Dr. Melissa Terry",
+                "department": "Information Science",
+                "email": "mterry@indiana.edu",
+                "avgRating": 3.6
+            },
             "location": "LH 163",
             "schedule": {
                 "days": [
@@ -4745,7 +5183,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Candidate direction many field. Even bad together professional wind consider that admit.",
-            "professor": "Terry Garza",
+            "professor": {
+                "id": "p84",
+                "name": "Dr. Terry Garza",
+                "department": "Information Science",
+                "email": "tgarza@indiana.edu",
+                "avgRating": 5.0
+            },
             "location": "HU 420",
             "schedule": {
                 "days": [
@@ -4808,7 +5252,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Open executive experience hotel compare box operation. Might catch that trip. Institution to movie seven.",
-            "professor": "Ashlee Henry",
+            "professor": {
+                "id": "p6",
+                "name": "Dr. Ashlee Henry",
+                "department": "Information Science",
+                "email": "ahenry@indiana.edu",
+                "avgRating": 3.4
+            },
             "location": "BH 215",
             "schedule": {
                 "days": [
@@ -4861,7 +5311,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Seven write decision data wrong best I. Pull see collection cut drive out image. Defense cup man course teacher message page.",
-            "professor": "Mary Torres",
+            "professor": {
+                "id": "p57",
+                "name": "Dr. Mary Torres",
+                "department": "Computer Science",
+                "email": "mtorres@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "HU 175",
             "schedule": {
                 "days": [
@@ -4924,7 +5380,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Tv drive adult executive military plan. Break focus raise away.",
-            "professor": "Marc Davis",
+            "professor": {
+                "id": "p55",
+                "name": "Dr. Marc Davis",
+                "department": "Information Science",
+                "email": "mdavis@indiana.edu",
+                "avgRating": 4.4
+            },
             "location": "GY 303",
             "schedule": {
                 "days": [
@@ -4982,7 +5444,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Positive better management minute air represent. Beat start say either none heavy down business.",
-            "professor": "Elizabeth Harrison",
+            "professor": {
+                "id": "p34",
+                "name": "Dr. Elizabeth Harrison",
+                "department": "Information Science",
+                "email": "eharrison@indiana.edu",
+                "avgRating": 4.9
+            },
             "location": "LH 465",
             "schedule": {
                 "days": [
@@ -5041,7 +5509,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Present defense become result easy.",
-            "professor": "David Russell",
+            "professor": {
+                "id": "p27",
+                "name": "Dr. David Russell",
+                "department": "Information Science",
+                "email": "drussell@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "HU 266",
             "schedule": {
                 "days": [
@@ -5104,7 +5578,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Crime study environment style remain cup they. Middle car market wear commercial. Debate energy religious.",
-            "professor": "Jessica Carr",
+            "professor": {
+                "id": "p46",
+                "name": "Dr. Jessica Carr",
+                "department": "Data Science",
+                "email": "jcarr@indiana.edu",
+                "avgRating": 4.1
+            },
             "location": "PY 206",
             "schedule": {
                 "days": [
@@ -5163,7 +5643,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Down PM benefit arm subject over feeling. Buy protect front why ability fund front. Drug thing number end commercial.",
-            "professor": "Travis Warren",
+            "professor": {
+                "id": "p86",
+                "name": "Dr. Travis Warren",
+                "department": "Data Science",
+                "email": "twarren@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "GY 277",
             "schedule": {
                 "days": [
@@ -5226,7 +5712,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Leg organization nice happy international. Open wife owner. Get finish pick shake level.",
-            "professor": "Jane Scott",
+            "professor": {
+                "id": "p43",
+                "name": "Dr. Jane Scott",
+                "department": "Computer Science",
+                "email": "jscott@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "LH 285",
             "schedule": {
                 "days": [
@@ -5289,7 +5781,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Rest really wait if. Debate into name response garden.",
-            "professor": "Damon Henry",
+            "professor": {
+                "id": "p23",
+                "name": "Dr. Damon Henry",
+                "department": "Data Science",
+                "email": "dhenry@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "LH 400",
             "schedule": {
                 "days": [
@@ -5347,7 +5845,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Research wind yard street only over. Natural fight stand one significant get interesting. Financial race wrong discuss agency fund.",
-            "professor": "John Ross",
+            "professor": {
+                "id": "p48",
+                "name": "Dr. John Ross",
+                "department": "Information Science",
+                "email": "jross@indiana.edu",
+                "avgRating": 3.9
+            },
             "location": "HU 286",
             "schedule": {
                 "days": [
@@ -5400,7 +5904,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "List run safe figure. Allow star forward leave art practice.",
-            "professor": "Amanda Mendoza",
+            "professor": {
+                "id": "p3",
+                "name": "Dr. Amanda Mendoza",
+                "department": "Data Science",
+                "email": "amendoza@indiana.edu",
+                "avgRating": 3.6
+            },
             "location": "LH 307",
             "schedule": {
                 "days": [
@@ -5454,7 +5964,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Power one after score career big remember. Since break star various item boy response knowledge.",
-            "professor": "Andrew Golden",
+            "professor": {
+                "id": "p5",
+                "name": "Dr. Andrew Golden",
+                "department": "Information Science",
+                "email": "agolden@indiana.edu",
+                "avgRating": 3.3
+            },
             "location": "SE 288",
             "schedule": {
                 "days": [
@@ -5517,7 +6033,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Every end catch American. Spend food world believe soldier certain. Fly play pay real good.",
-            "professor": "Charlotte Poole",
+            "professor": {
+                "id": "p16",
+                "name": "Dr. Charlotte Poole",
+                "department": "Data Science",
+                "email": "cpoole@indiana.edu",
+                "avgRating": 4.8
+            },
             "location": "GY 249",
             "schedule": {
                 "days": [
@@ -5580,7 +6102,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Current note order impact spend question election. Sometimes city commercial.",
-            "professor": "Samantha Walters",
+            "professor": {
+                "id": "p74",
+                "name": "Dr. Samantha Walters",
+                "department": "Computer Science",
+                "email": "swalters@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "GY 216",
             "schedule": {
                 "days": [
@@ -5633,7 +6161,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Reveal safe PM too right. Top his outside project us pass management serious. Child investment yourself still.",
-            "professor": "Alice Cox",
+            "professor": {
+                "id": "p2",
+                "name": "Dr. Alice Cox",
+                "department": "Data Science",
+                "email": "acox@indiana.edu",
+                "avgRating": 3.6
+            },
             "location": "EP 100",
             "schedule": {
                 "days": [
@@ -5687,7 +6221,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Fire education expect part age visit message maybe. Evening prevent image already again new.",
-            "professor": "Jessica Marshall",
+            "professor": {
+                "id": "p47",
+                "name": "Dr. Jessica Marshall",
+                "department": "Data Science",
+                "email": "jmarshall@indiana.edu",
+                "avgRating": 4.0
+            },
             "location": "PY 405",
             "schedule": {
                 "days": [
@@ -5751,7 +6291,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Benefit thus mean certainly value create agree likely. Model cause letter career election few turn. Tree amount billion beyond quality fill final.",
-            "professor": "Jorge Long",
+            "professor": {
+                "id": "p51",
+                "name": "Dr. Jorge Long",
+                "department": "Data Science",
+                "email": "jlong@indiana.edu",
+                "avgRating": 4.2
+            },
             "location": "PY 332",
             "schedule": {
                 "days": [
@@ -5809,7 +6355,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Child Mr painting role company produce clear. Production your both focus foreign four.",
-            "professor": "Cameron Morgan",
+            "professor": {
+                "id": "p12",
+                "name": "Dr. Cameron Morgan",
+                "department": "Information Science",
+                "email": "cmorgan@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "GY 343",
             "schedule": {
                 "days": [
@@ -5862,7 +6414,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Religious around both place. Parent behind bank oil describe section. Suddenly idea common laugh environment.",
-            "professor": "Patrick Myers",
+            "professor": {
+                "id": "p69",
+                "name": "Dr. Patrick Myers",
+                "department": "Information Science",
+                "email": "pmyers@indiana.edu",
+                "avgRating": 4.1
+            },
             "location": "GY 198",
             "schedule": {
                 "days": [
@@ -5915,7 +6473,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Cause compare difficult discuss. Trouble key between seem. Follow current pay fire.",
-            "professor": "Rebecca Cuevas",
+            "professor": {
+                "id": "p70",
+                "name": "Dr. Rebecca Cuevas",
+                "department": "Computer Science",
+                "email": "rcuevas@indiana.edu",
+                "avgRating": 4.1
+            },
             "location": "EP 262",
             "schedule": {
                 "days": [
@@ -5979,7 +6543,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Ability no affect catch. Area traditional property she. Serve rule thus.",
-            "professor": "Sarah Hester",
+            "professor": {
+                "id": "p76",
+                "name": "Dr. Sarah Hester",
+                "department": "Information Science",
+                "email": "shester@indiana.edu",
+                "avgRating": 4.6
+            },
             "location": "GY 300",
             "schedule": {
                 "days": [
@@ -6033,7 +6603,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Third since laugh model make. Might fight social forward provide. Yeah sense up add subject research.",
-            "professor": "Amy Fields",
+            "professor": {
+                "id": "p4",
+                "name": "Dr. Amy Fields",
+                "department": "Data Science",
+                "email": "afields@indiana.edu",
+                "avgRating": 4.5
+            },
             "location": "PY 371",
             "schedule": {
                 "days": [
@@ -6092,7 +6668,13 @@
             "term": "Fall",
             "year": 2024,
             "description": "Although say bed second behind vote case.",
-            "professor": "Mr. Warren Wilson",
+            "professor": {
+                "id": "p66",
+                "name": "Mr. Warren Wilson",
+                "department": "Information Science",
+                "email": "mwilson@indiana.edu",
+                "avgRating": 4.8
+            },
             "location": "HU 328",
             "schedule": {
                 "days": [
